@@ -1,0 +1,61 @@
+/* Set box-sizing property */
+* {
+  box-sizing: border-box;
+}
+
+/* Set body font and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+/* Set header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Set container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Set grid styles */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col {
+  float: left;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Set image styles */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Set footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+}
