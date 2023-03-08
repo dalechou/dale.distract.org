@@ -5,15 +5,15 @@
 
 /* Set body font and background color */
 body {
-  font-family: Arial, sans-serif;
+  font-family: verdana, sans-serif;
   background-color: #f4f4f4;
   margin: 0;
 }
 
 /* Set header styles */
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #e3e3e3;
+  color: #111;
   text-align: center;
   padding: 10px;
   font-size: 24px;
@@ -24,7 +24,7 @@ header {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 /* Set grid styles */
