@@ -7,7 +7,7 @@
 /* Breakpoint: small screen */
 
 @media all and (max-width: 640px) { 
-    nav a { font-size: 90%; line-height: 150%; word-spacing: 560px; }
+    nav a { font-size: 130%; line-height: 150%; word-spacing: 560px; }
     nav img { width: 10%; height: auto; padding-right: 5%; }
     article { padding: 1% 0% 1% 0%; }
     h1 { font-size: 160%; line-height: 130%; }
@@ -18,7 +18,7 @@
 /* Breakpoint: medium screen */
 
 @media all and (min-width: 641px) and (max-width: 1007px) {
-    nav a { font-size: 90%; line-height: 150%; word-spacing: 560px; }
+    nav a { font-size: 130%; line-height: 150%; word-spacing: 560px; }
     nav img { width: 7%; height: auto; padding-right: 4%; }
     article { padding: 1% 0% 1% 0%; }
     h1 { font-size: 160%; line-height: 130%; }
@@ -29,7 +29,7 @@
 /* Breakpoint: large screen */
 
 @media all and (min-width: 1008px) {
-    nav a { font-size: 90%; line-height: 150%; word-spacing: 560px; }
+    nav a { font-size: 150%; line-height: 150%; word-spacing: 560px; }
     nav img { width: 2%; height: auto; padding-right: 1%; }
     article { padding: 1% 0% 1% 0%; }
     h1 { font-size: 200%; line-height: 130%; }
