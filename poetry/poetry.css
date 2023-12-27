@@ -7,7 +7,7 @@
 /* Breakpoint: small screen */
 
 @media all and (max-width: 640px) { 
-    nav p { font-size: 130%; line-height: 150%; word-spacing: 32px; }
+    nav p { font-size: 130%; line-height: 150%; word-spacing: 22px; }
     nav img { width: 10%; height: auto; padding-right: 5%; }
     article { padding: 1% 0% 1% 0%; }
     h1 { font-size: 160%; line-height: 130%; }
@@ -18,7 +18,7 @@
 /* Breakpoint: medium screen */
 
 @media all and (min-width: 641px) and (max-width: 1007px) {
-    nav p { font-size: 130%; line-height: 150%; word-spacing: 44px; }
+    nav p { font-size: 130%; line-height: 150%; word-spacing: 32px; }
     nav img { width: 7%; height: auto; padding-right: 4%; }
     article { padding: 1% 0% 1% 0%; }
     h1 { font-size: 160%; line-height: 130%; }
@@ -29,7 +29,7 @@
 /* Breakpoint: large screen */
 
 @media all and (min-width: 1008px) {
-    nav p { font-size: 150%; line-height: 150%; word-spacing: 56px; }
+    nav p { font-size: 150%; line-height: 150%; word-spacing: 42px; }
     nav img { width: 2%; height: auto; padding-right: 1%; }
     article { padding: 1% 0% 1% 0%; }
     h1 { font-size: 200%; line-height: 130%; }
@@ -54,7 +54,7 @@
     
     nav a:link { font-family: "Raleway", sans-serif; text-decoration: none; color: #c7e2b2; background-color: #092532; }
     nav a:visited { font-family: "Raleway", sans-serif; text-decoration: none; color: #c7e2b2; background-color: #092532; }
-    nav a:hover { font-family: "Raleway", sans-serif; text-decoration: none; color: #092532; background-color: #89c9b8; }
+    nav a:hover { font-family: "Raleway", sans-serif; text-decoration: none; color: #c7e2b2; background-color: #092532; }
     
     p span.url a:link { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; }
     p span.url a:visited { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; }
