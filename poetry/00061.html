@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mock the leaves</title>
     <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
 <nav>
-    <a href="./index.html"><img src="./icon_home.svg" alt="Home" /></a>
-    <a href="./recent.html"><img src="./icon_recent.svg" alt="Recent" /></a>
-    <a href="./all.html"><img src="./icon_all.svg" alt="All" /></a> 
-    <a href="./search.html"><img src="./icon_search.svg" alt="Search" /></a> 
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
     <a href="./00062.html"><img src="./icon_next.svg" alt="Next" /></a>
 </nav>
 </header>
@@ -30,7 +34,7 @@ And whisper so softly the words of trust.
 Our friendship sprouted as those four wings do, 
 And little did I know that things would twist:
 The plant's seen too much of the clouds and blue, 
-And has wished to fly away -- into the mist. 
+And has wished to fly away—into the mist. 
 Times, I'd catch it trying, by the window, 
 And I'd mock, tear-held, in the shadow.
 <br /><span class="stamp">Dale Chou</span>

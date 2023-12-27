@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The show</title>
     <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
 <nav>
-    <a href="./index.html"><img src="./icon_home.svg" alt="Home" /></a>
-    <a href="./recent.html"><img src="./icon_recent.svg" alt="Recent" /></a>
-    <a href="./all.html"><img src="./icon_all.svg" alt="All" /></a> 
-    <a href="./search.html"><img src="./icon_search.svg" alt="Search" /></a> 
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
     <a href="./00141.html"><img src="./icon_next.svg" alt="Next" /></a>
 </nav>
 </header>
@@ -44,7 +48,7 @@ Red; they walked life
 In red.
 
 But purple
-Sat (right there in the centre) --
+Sat (right there in the centre)—
 
 Even on Chinese New Year.
 
@@ -55,7 +59,7 @@ To ward off evil, to claim health.
 
 So why won't they seal the year? Why
 Won't they seal the old lady? and the empty air?
-Oh, why not? -- won't they pull him off
+Oh, why not?—won't they pull him off
 His indelicate chair?
 
 Red curtains down. An ailing king

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Search through Dale Chou's poetry</title>
+    <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+<header>
+<nav>
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
+    <a href="./recent.html"><img src="./icon_next.svg" alt="Next" /></a>
+</nav>
+</header>
+<p>Contact information is as below.</p>
+
+    <div id="contactinfo"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#contactinfo").load("../contactinfo.html");
+    });
+    </script>
+
+<footer>
+<nav>
+    <a href="#"><img src="./icon_top.svg" alt="Top" /></a>
+    <a href="./recent.html"><img src="./icon_next.svg" alt="Next" /></a>
+</nav>
+</footer>
+</body>
+</html>

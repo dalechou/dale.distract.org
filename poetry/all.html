@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>All poems</title>
     <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
 <nav>
-    <a href="./index.html"><img src="./icon_home.svg" alt="Home" /></a>
-    <a href="./recent.html"><img src="./icon_recent.svg" alt="Recent" /></a>
-    <a href="./all.html"><img src="./icon_all.svg" alt="All" /></a> 
-    <a href="./search.html"><img src="./icon_search.svg" alt="Search" /></a> 
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
     <a href="./index.html"><img src="./icon_next.svg" alt="Next" /></a>
 </nav>
 </header>
-<p>This page contains every poem since 1998, listed and grouped in reverse chronological order: 
-<span class="inherit"><a href="#2020-2029">after 2020,</a></span>
-<span class="inherit"><a href="#2009-2019">2009–2019,</a></span> and <span class="inherit"><a href="#juvenilia">juvenilia</a></span>. There is also a shorter collection of <span class="inherit"><a href="./recent.html">recent poems</a></span>.</p>
+<p>This page contains every poem since 1998, listed and grouped in reverse chronological order. There is also a shorter collection of <span class="inherit"><a href="./recent.html">recent poems</a></span>.</p>
 <p id="2020-2029">After 2020 (<span class="inherit"><a href="#">top</a></span>).</p>
     <blockquote><p><span class="list">
     <a href="./00520.html">Back at this corner</a><br />

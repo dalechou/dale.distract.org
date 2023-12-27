@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ten birds</title>
     <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
 <nav>
-    <a href="./index.html"><img src="./icon_home.svg" alt="Home" /></a>
-    <a href="./recent.html"><img src="./icon_recent.svg" alt="Recent" /></a>
-    <a href="./all.html"><img src="./icon_all.svg" alt="All" /></a> 
-    <a href="./search.html"><img src="./icon_search.svg" alt="Search" /></a> 
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
     <a href="./00348.html"><img src="./icon_next.svg" alt="Next" /></a>
 </nav>
 </header>
@@ -21,8 +25,8 @@
 <pre>
 Ten birds set off
 White against the wind.     <i>I raise my lens;</i>
-Once --                     <i>I reset shutter;</i>
-Twice --                    <i>I fumble</i>
+Once—                    <i>I reset shutter;</i>
+Twice—                   <i>I fumble</i>
                             <i>for another aperture;</i>
 The birds are too far away  <i>by now,</i>
                             <i>into the void</i>

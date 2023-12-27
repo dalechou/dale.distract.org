@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>You have analysed enough</title>
     <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
 <nav>
-    <a href="./index.html"><img src="./icon_home.svg" alt="Home" /></a>
-    <a href="./recent.html"><img src="./icon_recent.svg" alt="Recent" /></a>
-    <a href="./all.html"><img src="./icon_all.svg" alt="All" /></a> 
-    <a href="./search.html"><img src="./icon_search.svg" alt="Search" /></a> 
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
     <a href="./00365.html"><img src="./icon_next.svg" alt="Next" /></a>
 </nav>
 </header>
@@ -25,11 +29,11 @@ They will not go wrong.
 This is all planned for.
 
 You hover critically over the clouds, 
-Beyond the control of your craft -- your subjects, 
+Beyond the control of your craft—your subjects, 
 They will never reach you 
 From their sterilised jar
 
-Made clean and faultless -- 
+Made clean and faultless—
 They are looking up because of it, 
 Hands clawing at the sky, mouths in the shape of O. 
 Ever faithful, your disciples,

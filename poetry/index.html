@@ -6,20 +6,24 @@
     <title>Dale Chou's poetry</title>
     <link rel="canonical" href="https://dale.distract.org/poetry/">
     <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
 <nav>
-    <a href="./index.html"><img src="./icon_home.svg" alt="Home" /></a>
-    <a href="./recent.html"><img src="./icon_recent.svg" alt="Recent" /></a>
-    <a href="./all.html"><img src="./icon_all.svg" alt="All" /></a> 
-    <a href="./search.html"><img src="./icon_search.svg" alt="Search" /></a> 
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
     <a href="./recent.html"><img src="./icon_next.svg" alt="Next" /></a>
 </nav>
 </header>
 <p>This (sub)site is an online anthology of Dale Chou's poetry.</p>
 <p>The icons above will lead to (from left to right) this home page, <span class="inherit"><a href="./recent.html">a collection of recent poems</a></span>, <span class="inherit"><a href="./all.html">an exhaustive list of poems</a></span>, <span class="inherit"><a href="./search.html">a way to search</a></span>, and a one-size-fit-all "next" button, respectively.</p>
-<p>The design and the textual content (specifically, the poems) are copyright of Dale Chou unless <span class="inherit"><a href="./ty.html">otherwise stated</a></span>. Readers are allowed to reproduce one single copy for personal research, provided that the reasons are academic and not commercial. The reproduced copy must include the full name of the respective copyright holder and the following URL: <span class="uri"><a href="http://dale.distract.org/poetry/">http://dale.distract.org/poetry/</a></span></p>
+<p>The design and the textual content (specifically, the poems) are copyright of Dale Chou unless <span class="inherit"><a href="./ty.html">otherwise stated</a></span>. Readers are allowed to reproduce one single copy for personal research, provided that the reasons are academic and not commercial. The reproduced copy must include the full name of the respective copyright holder and the following URL: <span class="url"><a href="http://dale.distract.org/poetry/">http://dale.distract.org/poetry/</a></span></p>
 <p>Please send all enquiries to <span class="inherit"><a href="../contact.html">Dale Chou</a></span>. Thank you for reading my poems.</p>
 <footer>
 <nav>

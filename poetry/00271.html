@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mindbeast</title>
     <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
 <nav>
-    <a href="./index.html"><img src="./icon_home.svg" alt="Home" /></a>
-    <a href="./recent.html"><img src="./icon_recent.svg" alt="Recent" /></a>
-    <a href="./all.html"><img src="./icon_all.svg" alt="All" /></a> 
-    <a href="./search.html"><img src="./icon_search.svg" alt="Search" /></a> 
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
     <a href="./00272.html"><img src="./icon_next.svg" alt="Next" /></a>
 </nav>
 </header>
@@ -21,7 +25,7 @@
 <pre>
 Most of my time is spent
 On the engineering of a capture
-For the Mindbeast -- light's trickery,
+For the Mindbeast—light's trickery,
 Which finds security in the obscure
 
 And is infinitely shy; so the
@@ -29,13 +33,13 @@ Difficulty lies in the making
 Of the hollow, the necessary material
 For the Creature of the Void to be
 
-Kept in captivity -- too nihilistic
+Kept in captivity—too nihilistic
 And it should cease to exist;
 Too metaphysical and it should float
 Into divinity. Which is why I have it
 
 Domesticated under grey roof shingles
-Aloof and demure -- sturdy enough
+Aloof and demure—sturdy enough
 To enclose the midnight howls
 With all its sound and fury!
 <br /><span class="stamp">Dale Chou</span>

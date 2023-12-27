@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Half the battle</title>
     <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
 <nav>
-    <a href="./index.html"><img src="./icon_home.svg" alt="Home" /></a>
-    <a href="./recent.html"><img src="./icon_recent.svg" alt="Recent" /></a>
-    <a href="./all.html"><img src="./icon_all.svg" alt="All" /></a> 
-    <a href="./search.html"><img src="./icon_search.svg" alt="Search" /></a> 
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
     <a href="./00240.html"><img src="./icon_next.svg" alt="Next" /></a>
 </nav>
 </header>
@@ -26,7 +30,7 @@ I know how to speak to the cats alone in the park.
 I know what it takes to wait for
 A call that has died and gone cold. 
 I know the moisture of an apartment that keeps the mind 
-At bay. I know how to plan for a journey -- one that takes me
+At bay. I know how to plan for a journey—one that takes me
 Far, far away. I know what it's like to stand in the dark, 
 Against the balustrade of the highest floor, looking up. 
 I know the names of the colours that I see 

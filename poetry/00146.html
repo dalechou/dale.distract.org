@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The vagrants</title>
     <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
 <nav>
-    <a href="./index.html"><img src="./icon_home.svg" alt="Home" /></a>
-    <a href="./recent.html"><img src="./icon_recent.svg" alt="Recent" /></a>
-    <a href="./all.html"><img src="./icon_all.svg" alt="All" /></a> 
-    <a href="./search.html"><img src="./icon_search.svg" alt="Search" /></a> 
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
     <a href="./00147.html"><img src="./icon_next.svg" alt="Next" /></a>
 </nav>
 </header>
@@ -21,7 +25,7 @@
 <pre>
     We are misplaced.
     The shopping centres pollute us
-Like a wet shirt --
+Like a wet shirt—
 
     Our amphibian skin
 Shames us. We are sideways.
@@ -35,7 +39,7 @@ Fetter the clay;
 
 What a finical freak show;
 Woe the pallor of Wednesday.
-    I suggest we fight this week --
+    I suggest we fight this week—
 
 For our lost walls
 And our lost cause;

@@ -7,80 +7,62 @@
 /* Breakpoint: small screen */
 
 @media all and (max-width: 640px) { 
-    /* Key values */
-    body { padding: 1% 1% 0% 1%; }
+    nav a { font-size: 90%; line-height: 150%; word-spacing: 56px; }
     nav img { width: 10%; height: auto; padding-right: 5%; }
     article { padding: 1% 0% 1% 0%; }
-    h1 { font-family: "Raleway", sans-serif; font-size: 160%; line-height: 130%; }
-    h1 span.dedication { font-family: "Raleway", sans-serif; font-size: 81%; font-style: italic; font-weight: 200; line-height: 100%; padding: 0% 0% 0% 1%; }
-    pre { font-family: "Source Code Pro", monospace; font-size: 130%; line-height: 150%; }
-    pre span.part { font-family: "Raleway", sans-serif; font-size: 113%; font-weight: 600; }
-    pre span.stamp { font-family: "Raleway", sans-serif; font-size: 97%; font-weight: 600; }
-    pre span.time { font-family: "Source Code Pro", monospace; font-size: 76%; line-height: 80%; }
-    p { font-family: "Raleway", sans-serif; font-size: 130%; line-height: 150%; }
-
-    /* Not really affected by screen sizes */
-    p span.uri a:link { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; text-decoration: none; color: #000; background-color: #fff; }  
-    p span.uri a:visited { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; text-decoration: none; color: #000; background-color: #fff; }
-    p span.uri a:hover { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; text-decoration: none; color: #fff; background-color: #0b612b; }
-    p span.list a:link { font-family: "Raleway", sans-serif; font-size: 90%; line-height: 150%; text-decoration: none; color: #000; background-color: #fff; }  
-    p span.list a:visited { font-family: "Raleway", sans-serif; font-size: 90%; line-height: 150%; text-decoration: none; color: #000; background-color: #fff; }
-    p span.list a:hover { font-family: "Raleway", sans-serif; font-size: 90%; line-height: 150%; text-decoration: none; color: #fff; background-color: #0b612b; }
-    p span.inherit a:link { text-decoration: none; color: #0b612b; background-color: #fff; }  
-    p span.inherit a:visited { text-decoration: none; color: #0b612b; background-color: #fff; }
-    p span.inherit a:hover { text-decoration: none; color: #fff; background-color: #0b612b; }
+    h1 { font-size: 160%; line-height: 130%; }
+    h1 span.dedication { font-size: 81%; font-style: italic; font-weight: 200; line-height: 100%; padding: 0% 0% 0% 1%; }
+    p { font-size: 130%; line-height: 150%; }
 }
 
 /* Breakpoint: medium screen */
 
 @media all and (min-width: 641px) and (max-width: 1007px) {
-    /* Key values */
-    body { padding: 1% 4% 0% 1%; }
+    nav a { font-size: 90%; line-height: 150%; word-spacing: 56px; }
     nav img { width: 7%; height: auto; padding-right: 4%; }
     article { padding: 1% 0% 1% 0%; }
-    h1 { font-family: "Raleway", sans-serif; font-size: 160%; line-height: 130%; }
-    h1 span.dedication { font-family: "Raleway", sans-serif; font-size: 81%; font-style: italic; font-weight: 200; line-height: 100%; padding: 0% 0% 0% 1%; }
-    pre { font-family: "Source Code Pro", monospace; font-size: 130%; line-height: 150%; }
-    pre span.part { font-family: "Raleway", sans-serif; font-size: 113%; font-weight: 600; }
-    pre span.stamp { font-family: "Raleway", sans-serif; font-size: 97%; font-weight: 600; }
-    pre span.time { font-family: "Source Code Pro", monospace; font-size: 76%; line-height: 80%; }
-    p { font-family: "Raleway", sans-serif; font-size: 130%; line-height: 150%; }
-    
-    /* Not really affected by screen sizes */
-    p span.uri a:link { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; text-decoration: none; color: #000; background-color: #fff; }  
-    p span.uri a:visited { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; text-decoration: none; color: #000; background-color: #fff; }
-    p span.uri a:hover { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; text-decoration: none; color: #fff; background-color: #0b612b; }
-    p span.list a:link { font-family: "Raleway", sans-serif; font-size: 90%; line-height: 150%; text-decoration: none; color: #000; background-color: #fff; }  
-    p span.list a:visited { font-family: "Raleway", sans-serif; font-size: 90%; line-height: 150%; text-decoration: none; color: #000; background-color: #fff; }
-    p span.list a:hover { font-family: "Raleway", sans-serif; font-size: 90%; line-height: 150%; text-decoration: none; color: #fff; background-color: #0b612b; }
-    p span.inherit a:link { text-decoration: none; color: #0b612b; background-color: #fff; }  
-    p span.inherit a:visited { text-decoration: none; color: #0b612b; background-color: #fff; }
-    p span.inherit a:hover { text-decoration: none; color: #fff; background-color: #0b612b; }
+    h1 { font-size: 160%; line-height: 130%; }
+    h1 span.dedication { font-size: 81%; font-style: italic; font-weight: 200; line-height: 100%; padding: 0% 0% 0% 1%; }
+    p { font-size: 130%; line-height: 150%; }
 }
 
 /* Breakpoint: large screen */
 
 @media all and (min-width: 1008px) {
-    /* Key values */    
-    body { padding: 1% 4% 0% 1%; }
+    nav a { font-size: 90%; line-height: 150%; word-spacing: 56px; }
     nav img { width: 2%; height: auto; padding-right: 1%; }
     article { padding: 1% 0% 1% 0%; }
-    h1 { font-family: "Raleway", sans-serif; font-size: 200%; line-height: 130%; }
-    h1 span.dedication { font-family: "Raleway", sans-serif; font-size: 75%; font-style: italic; font-weight: 200; line-height: 100%; padding: 0% 0% 0% 1%; }
-    pre { font-family: "Source Code Pro", monospace; font-size: 143%; line-height: 150%; }
+    h1 { font-size: 200%; line-height: 130%; }
+    h1 span.dedication { font-size: 75%; font-style: italic; font-weight: 200; line-height: 100%; padding: 0% 0% 0% 1%; }
+    p { font-size: 150%; line-height: 150%; }
+}
+
+/* Not really affected by screen sizes */
+
+    h1 { font-family: "Raleway", sans-serif; }
+    pre { font-family: "Source Code Pro", monospace; font-size: 130%; line-height: 150%; }
     pre span.part { font-family: "Raleway", sans-serif; font-size: 113%; font-weight: 600; }
     pre span.stamp { font-family: "Raleway", sans-serif; font-size: 97%; font-weight: 600; }
     pre span.time { font-family: "Source Code Pro", monospace; font-size: 76%; line-height: 80%; }
-    p { font-family: "Raleway", sans-serif; font-size: 150%; line-height: 150%; }
+    p { font-family: "Raleway", sans-serif; }
+
+    body { padding: 1% 2% 0% 1%; color: #89c9b8; background-color: #092532; }
     
-    /* Not really affected by screen sizes */
-    p span.uri a:link { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; text-decoration: none; color: #000; background-color: #fff; }  
-    p span.uri a:visited { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; text-decoration: none; color: #000; background-color: #fff; }
-    p span.uri a:hover { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; text-decoration: none; color: #fff; background-color: #0b612b; }
-    p span.list a:link { font-family: "Raleway", sans-serif; font-size: 90%; line-height: 150%; text-decoration: none; color: #000; background-color: #fff; }  
-    p span.list a:visited { font-family: "Raleway", sans-serif; font-size: 90%; line-height: 150%; text-decoration: none; color: #000; background-color: #fff; }
-    p span.list a:hover { font-family: "Raleway", sans-serif; font-size: 90%; line-height: 150%; text-decoration: none; color: #fff; background-color: #0b612b; }
-    p span.inherit a:link { text-decoration: none; color: #0b612b; background-color: #fff; }  
-    p span.inherit a:visited { text-decoration: none; color: #0b612b; background-color: #fff; }
-    p span.inherit a:hover { text-decoration: none; color: #fff; background-color: #0b612b; }
-}
+    a:link { text-decoration: none; color: #89c9b8; background-color: #092532; }
+    a:visited { text-decoration: none; color: #89c9b8; background-color: #092532; }
+    a:hover { text-decoration: none; color: #092532; background-color: #89c9b8; }
+    
+    nav a:link { font-family: "Raleway", sans-serif; text-decoration: none; color: #c7e2b2; background-color: #092532; }
+    nav a:visited { font-family: "Raleway", sans-serif; text-decoration: none; color: #c7e2b2; background-color: #092532; }
+    nav a:hover { font-family: "Raleway", sans-serif; text-decoration: none; color: #092532; background-color: #89c9b8; }
+    
+    p span.url a:link { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; }
+    p span.url a:visited { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; }
+    p span.url a:hover { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; }
+    p span.list a:link { font-family: "Raleway", sans-serif; font-size: 90%; line-height: 150%; }
+    p span.list a:visited { font-family: "Raleway", sans-serif; font-size: 90%; line-height: 150%; }
+    p span.list a:hover { font-family: "Raleway", sans-serif; font-size: 90%; line-height: 150%; }
+    
+    p span.inherit a:link { text-decoration: none; color: #c7e2b2; background-color: #092532; }
+    p span.inherit a:visited { text-decoration: none; color: #c7e2b2; background-color: #092532; }
+    p span.inherit a:hover { text-decoration: none; color: #092532; background-color: #89c9b8; }

@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>17:22</title>
     <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
 <nav>
-    <a href="./index.html"><img src="./icon_home.svg" alt="Home" /></a>
-    <a href="./recent.html"><img src="./icon_recent.svg" alt="Recent" /></a>
-    <a href="./all.html"><img src="./icon_all.svg" alt="All" /></a> 
-    <a href="./search.html"><img src="./icon_search.svg" alt="Search" /></a> 
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
     <a href="./00132.html"><img src="./icon_next.svg" alt="Next" /></a>
 </nav>
 </header>
@@ -23,7 +27,7 @@ The lights snaked
 And slipped through orange afternoons
 With Debussian glass. My mind turned
 Azure as I thought of you
-Beside one sawdust-home -- clouds
+Beside one sawdust-home—clouds
 Reflected 
 And brought new neighbours.
 
@@ -31,7 +35,7 @@ Men in warmer clothes confused
 Greetings with affection. 
 The difference between street-dogs and 
 Time 
-Obfuscated -- dissolved and 
+Obfuscated—dissolved and 
 Left a shard 
 Here and there.
 

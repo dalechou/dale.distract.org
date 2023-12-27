@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flying economy</title>
     <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
 <nav>
-    <a href="./index.html"><img src="./icon_home.svg" alt="Home" /></a>
-    <a href="./recent.html"><img src="./icon_recent.svg" alt="Recent" /></a>
-    <a href="./all.html"><img src="./icon_all.svg" alt="All" /></a> 
-    <a href="./search.html"><img src="./icon_search.svg" alt="Search" /></a> 
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
     <a href="./00299.html"><img src="./icon_next.svg" alt="Next" /></a>
 </nav>
 </header>
@@ -29,9 +33,9 @@ Covered by the sea's greenery.
 The tiny woman to my left had barred it with her bones. 
 One wrist positioned to secure occupation
 
-Too awkward to pass. And she knew it well --
+Too awkward to pass. And she knew it well—
 
-Until a quick jot -- an opportune turbulence
+Until a quick jot—an opportune turbulence
 Pummelled red jumper head-first against slight withdraw.
 
 Arms of threading furled as

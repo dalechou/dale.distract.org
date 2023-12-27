@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>An apparition</title>
     <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
 <nav>
-    <a href="./index.html"><img src="./icon_home.svg" alt="Home" /></a>
-    <a href="./recent.html"><img src="./icon_recent.svg" alt="Recent" /></a>
-    <a href="./all.html"><img src="./icon_all.svg" alt="All" /></a> 
-    <a href="./search.html"><img src="./icon_search.svg" alt="Search" /></a> 
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
     <a href="./00075.html"><img src="./icon_next.svg" alt="Next" /></a>
 </nav>
 </header>
@@ -20,7 +24,7 @@
 <h1>An apparition</h1>
 <pre>
 Dream a softer dream, 
-Please -- 
+Please—
 For few things are 
 Happier creatures than songbirds, 
 And the world 
@@ -29,7 +33,7 @@ In their ghastly colourful coats.
 
 Be grey, and dream
 About those dreadful poppies 
-And politics -- those
+And politics—those
 Are the real hues of the woe. 
 Let those shades cast your lullaby, 
 And sweetly sleep 'til the night ends

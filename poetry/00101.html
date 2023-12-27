@@ -5,28 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>A trial</title>
     <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
 <nav>
-    <a href="./index.html"><img src="./icon_home.svg" alt="Home" /></a>
-    <a href="./recent.html"><img src="./icon_recent.svg" alt="Recent" /></a>
-    <a href="./all.html"><img src="./icon_all.svg" alt="All" /></a> 
-    <a href="./search.html"><img src="./icon_search.svg" alt="Search" /></a> 
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
     <a href="./00102.html"><img src="./icon_next.svg" alt="Next" /></a>
 </nav>
 </header>
 <article>
 <h1>A trial</h1>
 <pre>
-I had a picture in my mind --
+I had a picture in my mind—
 
 The blue leaves, uncovered 
 Themselves by the heat
 (The papers twisted
 And turned) like cheap poetry.
 
-'Twas the dayflower: death by fire --
+'Twas the dayflower: death by fire—
 
 And I, the broken clock-tuned 
 Executioner, magnanimously soft-hearted. 
@@ -40,7 +44,7 @@ Drowned and screamed (silently)
 Beneath the jellyfish clouds; under 
 The trees; between the roots; crucified 
 Through the centre by blades of 
-Green -- an indifferent denial 
+Green—an indifferent denial 
 Of relations.
 
 Gentle, perhaps, 

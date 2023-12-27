@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The walker</title>
     <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
 <nav>
-    <a href="./index.html"><img src="./icon_home.svg" alt="Home" /></a>
-    <a href="./recent.html"><img src="./icon_recent.svg" alt="Recent" /></a>
-    <a href="./all.html"><img src="./icon_all.svg" alt="All" /></a> 
-    <a href="./search.html"><img src="./icon_search.svg" alt="Search" /></a> 
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
     <a href="./00242.html"><img src="./icon_next.svg" alt="Next" /></a>
 </nav>
 </header>
@@ -24,7 +28,7 @@ As I turn left and south up the intersection:
 The uneasy shuffle of his tread, shifting
 One foot over the other, lifting one leg 
 Higher than the other. A movement of
-Great patience -- vertigo only a step ahead.
+Great patience—vertigo only a step ahead.
 Always a plastic bag in hand, light, but 
 Swung with the gravity of his pace. To and fro 
 A clockwork wound, whilst his reeling gait a 

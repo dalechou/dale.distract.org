@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Under the shelter</title>
     <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
 <nav>
-    <a href="./index.html"><img src="./icon_home.svg" alt="Home" /></a>
-    <a href="./recent.html"><img src="./icon_recent.svg" alt="Recent" /></a>
-    <a href="./all.html"><img src="./icon_all.svg" alt="All" /></a> 
-    <a href="./search.html"><img src="./icon_search.svg" alt="Search" /></a> 
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
     <a href="./00221.html"><img src="./icon_next.svg" alt="Next" /></a>
 </nav>
 </header>
@@ -40,7 +44,7 @@ They moved with lithe about the wooden planks,
 Shifting from shade to shade
 
 Under the heat. A summer's turn, a change of view,
-A brilliant coup d'état -- no one was quite sure when,
+A brilliant coup d'état—no one was quite sure when,
 But it happened then, before the men could react.
 The women moved in place of the men.
 

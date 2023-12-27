@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>There is still time to sleep</title>
     <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
 <nav>
-    <a href="./index.html"><img src="./icon_home.svg" alt="Home" /></a>
-    <a href="./recent.html"><img src="./icon_recent.svg" alt="Recent" /></a>
-    <a href="./all.html"><img src="./icon_all.svg" alt="All" /></a> 
-    <a href="./search.html"><img src="./icon_search.svg" alt="Search" /></a> 
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
     <a href="./00487.html"><img src="./icon_next.svg" alt="Next" /></a>
 </nav>
 </header>
@@ -25,14 +29,14 @@ to sleep. There is still
 time to sleep,
 but the streets are already
 
-waking from its torpor -- 
+waking from its torpor—
 its frigid limbs regathered;
 
 a neighbour's chair
 set hard against the floor;
 
 the difficult whimper
-of the rolled-up door -- whilst I shuffle
+of the rolled-up door—whilst I shuffle
 
 gelid shadow in pale 
 purple,

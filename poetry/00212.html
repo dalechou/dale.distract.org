@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>In the apothecary</title>
     <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
 <nav>
-    <a href="./index.html"><img src="./icon_home.svg" alt="Home" /></a>
-    <a href="./recent.html"><img src="./icon_recent.svg" alt="Recent" /></a>
-    <a href="./all.html"><img src="./icon_all.svg" alt="All" /></a> 
-    <a href="./search.html"><img src="./icon_search.svg" alt="Search" /></a> 
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
     <a href="./00213.html"><img src="./icon_next.svg" alt="Next" /></a>
 </nav>
 </header>
@@ -30,11 +34,11 @@ Is more than capable of
 Extending life's expiry
 By a good few days.
 And who wouldn't 
-Want it? -- a brief claim to love
+Want it?—a brief claim to love
 And attention, to the right 
 To settle affairs, and 
 To the exhaustive path
-Of a second chance -- 
+Of a second chance—
 In clear vials of 
 Twelve exacting doses.
 <br /><span class="stamp">Dale Chou</span>

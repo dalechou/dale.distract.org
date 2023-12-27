@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prelude for winter</title>
     <link href="./poetry.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
 <nav>
-    <a href="./index.html"><img src="./icon_home.svg" alt="Home" /></a>
-    <a href="./recent.html"><img src="./icon_recent.svg" alt="Recent" /></a>
-    <a href="./all.html"><img src="./icon_all.svg" alt="All" /></a> 
-    <a href="./search.html"><img src="./icon_search.svg" alt="Search" /></a> 
+    <div id="mainnav"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+    <br />
     <a href="./00131.html"><img src="./icon_next.svg" alt="Next" /></a>
 </nav>
 </header>
@@ -21,14 +25,14 @@
 <pre>
 Homely sentiments eschewed. They waged wars
 On that land. Blades of grass swirled 
-And tangled -- danced
+And tangled—danced
 At the call of the wind.
 
 They cried confusion
 Near the end of autumn, and as I stood
 In the centre of the field, I remembered
 
-How I felt -- 
+How I felt—
 A mutiny 
 Of voices, no longer vapid, 
 Each screamed 

@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html><head><meta charset="UTF-8"><title>Contact Dale Chou</title>
+<html>
+<head>
+<meta charset="UTF-8"><title>Contact Dale Chou</title>
 <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet" type="text/css"><style>
 	@media all and (max-width: 640px) { 
         body { background-color: #e0f8f1; }
@@ -25,17 +27,16 @@
         a:visited { text-decoration: none; color: #0b612b; background-color: #e0f8f1; }
         a:hover { text-decoration: none; color: #e0f8f1; background-color: #0b612b; }
     }
-</style></head>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
 
 <body>
-<h1>Dale Chou</h1>
-<p>Please write to <a href="mailto:dale@distract.org">dale@distract.org</a>, thanks.</p>
-<p>I also use the following tools these days.</p>
-<blockquote>
-Fediverse: <a href="https://g0v.social/@dale">@dale@g0v.social</a> (Mastodon)<br />
-Discord: dalechou<br />
-Line: dalechou<br />
-LinkedIn: <a href="https://linkedin.com/in/dalechou">dalechou</a><br />
-Facebook: <a href="https://fb.com/dalechou">dalechou</a><br />
-</blockquote>
-</body></html>
+    <div id="contactinfo"></div>
+    <script type="text/javascript">
+    $(function(){
+        $("#contactinfo").load("../contactinfo.html");
+    });
+    </script>
+</body>
+</html>
