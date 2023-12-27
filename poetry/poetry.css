@@ -29,7 +29,7 @@
 /* Breakpoint: large screen */
 
 @media all and (min-width: 1008px) {
-    nav p { font-size: 150%; line-height: 150%; word-spacing: 42px; }
+    nav p { font-size: 150%; line-height: 150%; word-spacing: 32px; }
     nav img { width: 2%; height: auto; padding-right: 1%; }
     article { padding: 1% 0% 1% 0%; }
     h1 { font-size: 200%; line-height: 130%; }
