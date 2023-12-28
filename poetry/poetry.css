@@ -54,7 +54,8 @@
     
     nav a:link { font-family: "Raleway", sans-serif; text-decoration: none; color: #c7e2b2; background-color: #092532; }
     nav a:visited { font-family: "Raleway", sans-serif; text-decoration: none; color: #c7e2b2; background-color: #092532; }
-    nav a:hover { font-family: "Raleway", sans-serif; text-decoration: none; color: #c7e2b2; background-color: #092532; }
+    nav a:hover { font-family: "Raleway", sans-serif; text-decoration: none; color: #092532; background-color: #89c9b8; }
+    nav img { color: #c7e2b2; background-color: #092532; }
     
     p span.url a:link { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; }
     p span.url a:visited { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; }
