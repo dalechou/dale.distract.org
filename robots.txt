@@ -6,13 +6,7 @@ User-agent: ia_archiver
 Disallow: /poetry/
 
 User-agent: ia_archiver
+Disallow: /prose/
+
+User-agent: ia_archiver
 Disallow: /photography/
-
-User-agent: ia_archiver
-Disallow: /bvi/
-
-User-agent: ia_archiver
-Disallow: /games/
-
-User-agent: ia_archiver
-Disallow: /werkstatt/
