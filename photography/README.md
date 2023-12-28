@@ -1,3 +1,3 @@
-# dale.distract.org/poetry
+# dale.distract.org/photography
 
-I did not write the code under this (photography) section, ChatGPT did.  Just messing around.
+I did not write the photography subsite. ChatGPT did. I have only updated the CSS portion of the result.

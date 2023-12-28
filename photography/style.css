@@ -6,19 +6,23 @@
 /* Set body font and background color */
 body {
   font-family: verdana, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #1b2e36;
   margin: 0;
 }
 
 /* Set header styles */
 header {
-  background-color: #e3e3e3;
-  color: #111;
+  background-color: #0e171b;
+  color: #85aec1;
   text-align: center;
   padding: 10px;
   font-size: 24px;
   margin-bottom: 20px;
 }
+
+a:link { text-decoration: none; color: #aec9d6; }
+a:visited { text-decoration: none; color: #aec9d6; }
+a:hover { text-decoration: none; color: #c5d9e2; }
 
 /* Set container styles */
 .container {
@@ -39,8 +43,8 @@ header {
   width: 100%;
   margin: 10px 0;
   padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ccc;
+  background-color: #0e171b;
+  border: 1px solid #85aec1;
   text-align: center;
 }
 
@@ -53,8 +57,8 @@ img {
 
 /* Set footer styles */
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #0e171b;
+  color: #85aec1;
   text-align: center;
   padding: 10px;
   margin-top: 20px;
