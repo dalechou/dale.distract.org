@@ -8,7 +8,7 @@
 
 @media all and (max-width: 640px) { 
     nav p { font-size: 110%; line-height: 110%; word-spacing: 18px; }
-    nav img { width: 10%; height: auto; padding-right: 5%; padding-bottom: 5%; }
+    nav img { width: 10%; height: auto; padding-right: 5%; padding-bottom: 1%; }
     article { padding: 1% 0% 1% 0%; }
     h1 { font-size: 160%; line-height: 130%; }
     h1 span.dedication { font-size: 81%; font-style: italic; font-weight: 200; line-height: 100%; padding: 0% 0% 0% 1%; }
@@ -19,7 +19,7 @@
 
 @media all and (min-width: 641px) and (max-width: 1007px) {
     nav p { font-size: 110%; line-height: 110%; word-spacing: 22px; }
-    nav img { width: 7%; height: auto; padding-right: 4%; padding-bottom: 10%; }
+    nav img { width: 7%; height: auto; padding-right: 4%; padding-bottom: 1%; }
     article { padding: 1% 0% 1% 0%; }
     h1 { font-size: 160%; line-height: 130%; }
     h1 span.dedication { font-size: 81%; font-style: italic; font-weight: 200; line-height: 100%; padding: 0% 0% 0% 1%; }
@@ -30,7 +30,7 @@
 
 @media all and (min-width: 1008px) {
     nav p { font-size: 130%; line-height: 110%; word-spacing: 24px; }
-    nav img { width: 1%; height: auto; padding-right: 1%; padding-bottom: 10%; }
+    nav img { width: 2%; height: auto; padding-right: 1%; padding-bottom: 1%; }
     article { padding: 1% 0% 1% 0%; }
     h1 { font-size: 200%; line-height: 130%; }
     h1 span.dedication { font-size: 75%; font-style: italic; font-weight: 200; line-height: 100%; padding: 0% 0% 0% 1%; }
