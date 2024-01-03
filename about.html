@@ -1,59 +1,35 @@
 <!DOCTYPE html>
-<html><head><meta charset="UTF-8"><title>About Dale Chou and distract.org</title>
-<link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet" type="text/css">
-<style>
-	@media all and (max-width: 640px) { 
-        body { color: #8bade4; background-color: #0c1b33; padding: 1% 1% 2% 1%; }
-        h1 { font-family: "Alice", serif; font-size: 200%; line-height: 150%; }
-        p { font-family: "Alice", serif; font-size: 130%; line-height: 150%; }
-        blockquote, li { font-family: "Alice", serif; font-size: 130%; line-height: 150%; }
-        a:link { text-decoration: none; color: #bdd0ef; background-color: #0c1b33; }
-        a:visited { text-decoration: none; color: #bdd0ef; background-color: #0c1b33; }
-        a:hover { text-decoration: none; color: #0c1b33; background-color: #8bade4; }
-    }
-    @media all and (min-width: 641px) and (max-width: 1007px) {
-        body { color: #8bade4; background-color: #0c1b33; padding: 1% 1% 2% 1%; }
-        h1 { font-family: "Alice", serif; font-size: 200%; line-height: 150%; }
-        p { font-family: "Alice", serif; font-size: 130%; line-height: 150%; }
-        blockquote, li { font-family: "Alice", serif; font-size: 130%; line-height: 150%; }
-        a:link { text-decoration: none; color: #bdd0ef; background-color: #0c1b33; }
-        a:visited { text-decoration: none; color: #bdd0ef; background-color: #0c1b33; }
-        a:hover { text-decoration: none; color: #0c1b33; background-color: #8bade4; }
-    }
-    @media all and (min-width: 1008px) {
-        body { color: #8bade4; background-color: #0c1b33; padding: 1% 1% 2% 1%; }
-        h1 { font-family: "Alice", serif; font-size: 200%; line-height: 150%; }
-        p { font-family: "Alice", serif; font-size: 130%; line-height: 150%; }
-        blockquote, li { font-family: "Alice", serif; font-size: 130%; line-height: 150%; }
-        a:link { text-decoration: none; color: #bdd0ef; background-color: #0c1b33; }
-        a:visited { text-decoration: none; color: #bdd0ef; background-color: #0c1b33; }
-        a:hover { text-decoration: none; color: #0c1b33; background-color: #8bade4; }
-    }
-</style>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Dale Chou</title>
+    <link href="./main.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
-
 <body>
-<br /><img src="./dale.jpg" height="450" width="300" alt="Dale's picture" /><br />
+<header>
+<nav>
+    <div id="mainnav"></div>
+    <script>
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+</nav>
+</header>
+<img src="./dale.jpg" height="450" width="300" alt="Dale's picture" /><br />
 <h1>Dale Chou <i style="font-size: 60%; font-weight: lighter">(he/him)</i></h1>
 <p>Gamer. Poet. Dad. These labels are in chronological order.</p>
 <p>Here are a few activities that I enjoy:</p>
-	<ul>
-        <li>Going to a particular beach at the northern shore of Taiwan.</li>
-        <li>Writing poems.</li>
-        <li>Doodling.</li>
-        <li>Gaming with friends.</li>
-        <li>Watching movies (both good and bad).</li>
-        <li>Messing around with the piano at home with my little one.</li>
-	</ul>
-<p>My <a href="./poetry/">poems</a> and <a href="./photography/">photos</a> are online. Please feel free to <a href="./contact.html">reach out</a>. I like meeting interesting people from all over the world.</p>
-<br />
-<hr />
-<h1>History of distract.org</h1>
-<p>distract.org was used for distrACT projects (distributing internet service through real action). The goal was to establish an open community to encourage creativity on the internet by providing internet service pro bono. It was believed that, "no one, especially the likes of poets, writers, musicians, and artists, should have to travail through the unstability of poor quality service providers for a venue of expression."</p>
-<p>The server, isis2, was powered by CentOS 6 64-bit, with 1.5 GB RAM, 60 GB storage, and hardware RAID 10. It was accessible at the IPv4 address of 209.50.248.203. distrACT was operational for more than a decade. When isis2 shut down on 17 April, 2015, it was serving 44 accounts.</p>
-<h1>And now?</h1>
-<p>Now distract.org only hosts personal projects via GitHub. The "main site" points to dale.distract.org via 301 forwarding to reflect this change. The structure and design of the site is kept modular on purpose. The main site has become an <a href="./index.html">index</a> to several (sub)sites, each representing an independent personal project.</p>
-<br />
-<hr />
-<p>Please <a href="./contact.html">send an email</a> for enquiries.</p>
-</body></html>
+    <blockquote><p><span class="list">
+    Going to a particular beach at the northern shore of Taiwan.<br />
+    Writing poems.<br />
+    Doodling.<br />
+    Gaming with friends.<br />
+    Watching movies (both good and bad).<br />
+    Messing around with the piano at home with my little one.<br />
+    </span></p></blockquote>
+<p>I like meeting interesting people from all over the world.</p>
+</body>
+</html>

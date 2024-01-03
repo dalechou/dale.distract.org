@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Vollkorn);
+
+/* Latest tune: 2024-01-02 */
+/* Reference: https://docs.microsoft.com/en-us/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design */
+
+/* Breakpoint: small screen */
+
+@media all and (max-width: 640px) { 
+    nav p { font-size: 130%; line-height: 150%; word-spacing: 16px; }
+    h1 { font-size: 160%; line-height: 130%; }
+    p { font-size: 130%; line-height: 150%; }
+    p span.lang { font-size: 81%; font-style: italic; font-weight: lighter; }
+}
+
+/* Breakpoint: medium screen */
+
+@media all and (min-width: 641px) and (max-width: 1007px) {
+    nav p { font-size: 130%; line-height: 150%; word-spacing: 20px; }
+    h1 { font-size: 160%; line-height: 130%; }
+    p { font-size: 130%; line-height: 150%; }
+    p span.lang { font-size: 81%; font-style: italic; font-weight: lighter; }
+}
+
+/* Breakpoint: large screen */
+
+@media all and (min-width: 1008px) {
+    nav p { font-size: 150%; line-height: 150%; word-spacing: 24px; }
+    h1 { font-size: 200%; line-height: 130%; }
+    p { font-size: 150%; line-height: 150%; }
+    p span.lang { font-size: 75%; font-style: italic; font-weight: lighter; }
+}
+
+/* Not really affected by screen sizes */
+
+    h1 { font-family: "Vollkorn", sans-serif; }
+    p { font-family: "Vollkorn", sans-serif; }
+
+    body { padding: 1% 2% 0% 1%; color: #d9d6d4; background-color: #423e3b; }
+    
+    a:link { text-decoration: none; color: #fecc85; background-color: #423e3b; }
+    a:visited { text-decoration: none; color: #fecc85; background-color: #423e3b; }
+    a:hover { text-decoration: none; color: #423e3b; background-color: #d9d6d4; }
+    
+    nav a:link { font-family: "Vollkorn", sans-serif; text-decoration: none; color: #fecc85; background-color: #423e3b; }
+    nav a:visited { font-family: "Vollkorn", sans-serif; text-decoration: none; color: #fecc85; background-color: #423e3b; }
+    nav a:hover { font-family: "Vollkorn", sans-serif; text-decoration: none; color: #423e3b; background-color: #d9d6d4; }
+    
+    p span.url a:link { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; }
+    p span.url a:visited { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; }
+    p span.url a:hover { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; }
+    
+    p span.list a:link { font-family: "Vollkorn", sans-serif; line-height: 150%; }
+    p span.list a:visited { font-family: "Vollkorn", sans-serif; line-height: 150%; }
+    p span.list a:hover { font-family: "Vollkorn", sans-serif; line-height: 150%; }
+    
+    p span.inherit a:link { text-decoration: none; color: #fecc85; background-color: #423e3b; }
+    p span.inherit a:visited { text-decoration: none; color: #fecc85; background-color: #423e3b; }
+    p span.inherit a:hover { text-decoration: none; color: #423e3b; background-color: #d9d6d4; }

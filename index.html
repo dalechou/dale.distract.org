@@ -2,38 +2,32 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>Dale Chou</title>
-    <link rel="canonical" href="https://dale.distract.org/">
-    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:700" rel="stylesheet" type="text/css">
-    <style>
-        body { background-color: #5a1e0c; }
-        @media all and (max-width: 640px) { 
-            p { text-align: center; line-height: 450%; word-spacing: 56px; }
-            a { font-family: "Cabin Sketch", sans-serif; font-size: 500%; text-align: center; text-decoration: none; color: #f3b7a5; }
-        }
-        @media all and (min-width: 641px) and (max-width: 1007px) {
-            p { text-align: center; line-height: 450%; word-spacing: 56px; }
-            a { font-family: "Cabin Sketch", sans-serif; font-size: 400%; text-align: center; text-decoration: none; color: #f3b7a5; }
-        }
-        @media all and (min-width: 1008px) {
-            p { text-align: center; line-height: 450%; word-spacing: 56px; }
-            a { font-family: "Cabin Sketch", sans-serif; font-size: 300%; text-align: center; text-decoration: none; color: #f3b7a5; }
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dale Chou's personal site</title>
+    <link href="./main.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
-
 <body>
-<p>
-<br /><img src="./xad.png" height="250" width="250" alt="In memorium of Xad the awesome mascot cat" /><br />
-<a href="./poetry/">POETRY</a> 
-<a href="./photography/">PHOTOGRAPHY</a><br />
-<a href="https://badweather.tw/">GUILD</a>
-<a href="https://www.twitch.tv/dalechou">STREAM</a> 
-<a href="./prefekta/">PREFEKTA</a><br />
-<a href="./about.html">ABOUT</a>
-<a href="./contact.html">CONTACT</a><br />
-<br />
-<a rel="me" href="https://g0v.social/@dale"></a><br />
-</p>
+<header>
+<nav>
+    <div id="mainnav"></div>
+    <script>
+    $(function(){
+        $("#mainnav").load("nav.html");
+    });
+    </script>
+</nav>
+</header>
+<p>Hi, I am Dale. Welcome to my personal site.</p>
+<p>From here you can jump to the (sub)sites below that I am interested in these days.</p>
+    <blockquote><p><span class="list">
+    <a href="./poetry/">Poetry</a>—an online collection of my poems <span class="lang">(en)</span><br />
+    Scrawl—stories, articles, writings on paper napkins <span class="lang">(zh-TW)</span><br />
+    <a href="./photography/">Photography</a>—18 photographs that I took, once upon a time <span class="lang">(en)</span><br />
+    <a href="https://badweather.tw/">Bad Weather</a>—a <i>World of Warcraft</i> guild site <span class="lang">(zh-TW)</span><br />
+    <a href="./prefekta/">Prefekta</a>—a better scale <span class="lang">(en)</span><br />
+    <a href="https://www.twitch.tv/dalechou">Stream</a>—I sometimes share what I play <span class="lang">(en, zh-TW)</span><br />
+    <a href="./xad/">Xad</a>—a quiet place for a very awesome cat<br />
+    </span></p></blockquote>
 </body>
 </html>

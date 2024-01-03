@@ -1,6 +1,5 @@
 User-agent: *
 Crawl-delay: 86400
-Disallow: /poetry/poetry.css
 
 User-agent: ia_archiver
 Disallow: /poetry/
