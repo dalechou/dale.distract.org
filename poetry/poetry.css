@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 
-/* Latest tune: 2021-12-26 */
+/* Latest tune: 2023-12-28 */
 /* Reference: https://docs.microsoft.com/en-us/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design */
 
 /* Breakpoint: small screen */
@@ -60,6 +60,7 @@
     p span.url a:link { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; }
     p span.url a:visited { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; }
     p span.url a:hover { font-family: "Source Code Pro", monospace; font-size: 85%; line-height: 100%; }
+    
     p span.list a:link { font-family: "Raleway", sans-serif; font-size: 90%; line-height: 150%; }
     p span.list a:visited { font-family: "Raleway", sans-serif; font-size: 90%; line-height: 150%; }
     p span.list a:hover { font-family: "Raleway", sans-serif; font-size: 90%; line-height: 150%; }
