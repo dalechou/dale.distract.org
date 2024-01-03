@@ -9,7 +9,7 @@
     nav p { font-size: 130%; line-height: 150%; word-spacing: 16px; }
     h1 { font-size: 160%; line-height: 130%; }
     p { font-size: 130%; line-height: 150%; }
-    p span.lang { font-size: 81%; font-style: italic; font-weight: lighter; }
+    sub { font-size: 81%; font-style: italic; font-weight: lighter; }
 }
 
 /* Breakpoint: medium screen */
@@ -18,7 +18,7 @@
     nav p { font-size: 130%; line-height: 150%; word-spacing: 20px; }
     h1 { font-size: 160%; line-height: 130%; }
     p { font-size: 130%; line-height: 150%; }
-    p span.lang { font-size: 81%; font-style: italic; font-weight: lighter; }
+    sub { font-size: 81%; font-style: italic; font-weight: lighter; }
 }
 
 /* Breakpoint: large screen */
@@ -27,7 +27,7 @@
     nav p { font-size: 150%; line-height: 150%; word-spacing: 24px; }
     h1 { font-size: 200%; line-height: 130%; }
     p { font-size: 150%; line-height: 150%; }
-    p span.lang { font-size: 75%; font-style: italic; font-weight: lighter; }
+    sub { font-size: 75%; font-style: italic; font-weight: lighter; }
 }
 
 /* Not really affected by screen sizes */
