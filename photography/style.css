@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Fira+Mono:400);
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
 
 /* Set box-sizing property */
 * {
@@ -7,7 +7,7 @@
 
 /* Set body font and background color */
 body {
-  font-family: Fira Mono, serif;
+  font-family: Fira Mono, monospace;
   background-color: #1b2e36;
   margin: 0;
 }
