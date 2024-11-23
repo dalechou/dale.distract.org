@@ -6,34 +6,34 @@
 /* Breakpoint: small screen */
 
 @media all and (max-width: 640px) { 
+    p { font-size: 130%; line-height: 150%; }
     nav p { font-size: 130%; line-height: 150%; word-spacing: 16px; }
     nav img { width: 24px; height: auto; padding-right: 5%; }
     article { padding: 2% 0% 2% 0%; }
     h1 { font-size: 160%; line-height: 130%; }
     h1 span.dedication { font-size: 81%; font-style: italic; font-weight: 200; padding: 0% 0% 0% 1%; }
-    p { font-size: 130%; line-height: 150%; }
 }
 
 /* Breakpoint: medium screen */
 
 @media all and (min-width: 641px) and (max-width: 1007px) {
+    p { font-size: 130%; line-height: 150%; }
     nav p { font-size: 130%; line-height: 150%; word-spacing: 20px; }
     nav img { width: 28px; height: auto; padding-right: 3%; }
     article { padding: 2% 0% 2% 0%; }
     h1 { font-size: 160%; line-height: 130%; }
     h1 span.dedication { font-size: 81%; font-style: italic; font-weight: 200; padding: 0% 0% 0% 1%; }
-    p { font-size: 130%; line-height: 150%; }
 }
 
 /* Breakpoint: large screen */
 
 @media all and (min-width: 1008px) {
+    p { font-size: 150%; line-height: 150%; }
     nav p { font-size: 150%; line-height: 150%; word-spacing: 24px; }
     nav img { width: 28px; height: auto; padding-right: 1%; }
     article { padding: 2% 0% 3% 0%; }
     h1 { font-size: 200%; line-height: 130%; }
     h1 span.dedication { font-size: 75%; font-style: italic; font-weight: 200; padding: 0% 0% 0% 1%; }
-    p { font-size: 150%; line-height: 150%; }
 }
 
 /* Not really affected by screen sizes */

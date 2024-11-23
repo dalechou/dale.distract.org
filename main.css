@@ -6,25 +6,25 @@
 /* Breakpoint: small screen */
 
 @media all and (max-width: 640px) { 
-    nav p { font-size: 120%; line-height: 150%; word-spacing: 16px; }
-    h1 { font-size: 160%; line-height: 130%; }
+    nav p { font-size: 130%; line-height: 150%; word-spacing: 16px; }
     p { font-size: 130%; line-height: 150%; }
+    h1 { font-size: 160%; line-height: 130%; }
 }
 
 /* Breakpoint: medium screen */
 
 @media all and (min-width: 641px) and (max-width: 1007px) {
-    nav p { font-size: 120%; line-height: 150%; word-spacing: 20px; }
-    h1 { font-size: 160%; line-height: 130%; }
+    nav p { font-size: 130%; line-height: 150%; word-spacing: 20px; }
     p { font-size: 130%; line-height: 150%; }
+    h1 { font-size: 160%; line-height: 130%; }
 }
 
 /* Breakpoint: large screen */
 
 @media all and (min-width: 1008px) {
-    nav p { font-size: 140%; line-height: 150%; word-spacing: 24px; }
-    h1 { font-size: 177%; line-height: 130%; }
+    nav p { font-size: 150%; line-height: 150%; word-spacing: 24px; }
     p { font-size: 150%; line-height: 150%; }
+    h1 { font-size: 177%; line-height: 130%; }
 }
 
 /* Not really affected by screen sizes */
