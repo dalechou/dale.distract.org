@@ -39,9 +39,9 @@
     a:visited { text-decoration: none; color: #fecc85; background-color: #423e3b; }
     a:hover { text-decoration: none; color: #423e3b; background-color: #d9d6d4; }
     
-    nav a:link { font-family: "Source Code Pro", monospace; text-decoration: none; color: #fecc85; background-color: #423e3b; }
-    nav a:visited { font-family: "Source Code Pro", monospace; text-decoration: none; color: #fecc85; background-color: #423e3b; }
-    nav a:hover { font-family: "Source Code Pro", monospace; text-decoration: none; color: #423e3b; background-color: #d9d6d4; }
+    nav a:link { font-family: "Crimson Pro", serif; text-decoration: none; color: #fecc85; background-color: #423e3b; }
+    nav a:visited { font-family: "Crimson Pro", serif; text-decoration: none; color: #fecc85; background-color: #423e3b; }
+    nav a:hover { font-family: "Crimson Pro", serif; text-decoration: none; color: #423e3b; background-color: #d9d6d4; }
     
     p span.url a:link { font-family: "Source Code Pro", monospace; font-size: 86%; line-height: 100%; }
     p span.url a:visited { font-family: "Source Code Pro", monospace; font-size: 86%; line-height: 100%; }
