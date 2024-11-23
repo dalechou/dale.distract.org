@@ -43,9 +43,9 @@
     nav a:visited { font-family: "Montserrat", sans-serif; text-decoration: none; color: #fecc85; background-color: #423e3b; }
     nav a:hover { font-family: "Montserrat", sans-serif; text-decoration: none; color: #423e3b; background-color: #d9d6d4; }
     
-    p span.url a:link { font-family: "Source Code Pro", monospace; font-size: 90%; line-height: 100%; }
-    p span.url a:visited { font-family: "Source Code Pro", monospace; font-size: 90%; line-height: 100%; }
-    p span.url a:hover { font-family: "Source Code Pro", monospace; font-size: 90%; line-height: 100%; }
+    p span.url a:link { font-family: "Source Code Pro", monospace; font-size: 88%; line-height: 100%; }
+    p span.url a:visited { font-family: "Source Code Pro", monospace; font-size: 88%; line-height: 100%; }
+    p span.url a:hover { font-family: "Source Code Pro", monospace; font-size: 88%; line-height: 100%; }
     
     p span.list a:link { font-family: "Montserrat", sans-serif; line-height: 150%; }
     p span.list a:visited { font-family: "Montserrat", sans-serif; line-height: 150%; }
