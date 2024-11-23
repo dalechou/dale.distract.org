@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Vollkorn);
-@import url(https://fonts.googleapis.com/css?family=Fira+Mono:400);
+@import url(https://fonts.googleapis.com/css?family=Spectral:400);
 
 /* Latest tune: 2024-01-02 */
 /* Reference: https://docs.microsoft.com/en-us/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design */
@@ -43,9 +43,9 @@
     nav a:visited { font-family: "Vollkorn", sans-serif; text-decoration: none; color: #fecc85; background-color: #423e3b; }
     nav a:hover { font-family: "Vollkorn", sans-serif; text-decoration: none; color: #423e3b; background-color: #d9d6d4; }
     
-    p span.url a:link { font-family: "Fira Mono", monospace; font-size: 85%; line-height: 100%; }
-    p span.url a:visited { font-family: "Fira Mono", monospace; font-size: 85%; line-height: 100%; }
-    p span.url a:hover { font-family: "Fira Mono", monospace; font-size: 85%; line-height: 100%; }
+    p span.url a:link { font-family: "Spectral", monospace; font-size: 85%; line-height: 100%; }
+    p span.url a:visited { font-family: "Spectral", monospace; font-size: 85%; line-height: 100%; }
+    p span.url a:hover { font-family: "Spectral", monospace; font-size: 85%; line-height: 100%; }
     
     p span.list a:link { font-family: "Vollkorn", sans-serif; line-height: 150%; }
     p span.list a:visited { font-family: "Vollkorn", sans-serif; line-height: 150%; }

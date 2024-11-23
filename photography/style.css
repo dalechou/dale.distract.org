@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono:400);
+
 /* Set box-sizing property */
 * {
   box-sizing: border-box;
@@ -5,7 +7,7 @@
 
 /* Set body font and background color */
 body {
-  font-family: verdana, sans-serif;
+  font-family: Fira Mono, sans-serif;
   background-color: #1b2e36;
   margin: 0;
 }
