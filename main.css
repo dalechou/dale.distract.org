@@ -25,7 +25,7 @@
 
 @media all and (min-width: 1008px) {
     nav p { font-size: 140%; line-height: 150%; word-spacing: 24px; }
-    h1 { font-size: 180%; line-height: 130%; }
+    h1 { font-size: 177%; line-height: 130%; }
     p { font-size: 150%; line-height: 150%; }
 }
 
@@ -44,9 +44,9 @@
     nav a:visited { font-family: "Open Sans", sans-serif; text-decoration: none; color: #fecc85; background-color: #423e3b; }
     nav a:hover { font-family: "Open Sans", sans-serif; text-decoration: none; color: #423e3b; background-color: #d9d6d4; }
     
-    p span.url a:link { font-family: "Source Code Pro", monospace; font-size: 88%; line-height: 100%; }
-    p span.url a:visited { font-family: "Source Code Pro", monospace; font-size: 88%; line-height: 100%; }
-    p span.url a:hover { font-family: "Source Code Pro", monospace; font-size: 88%; line-height: 100%; }
+    p span.url a:link { font-family: "Source Code Pro", monospace; font-size: 86%; line-height: 100%; }
+    p span.url a:visited { font-family: "Source Code Pro", monospace; font-size: 86%; line-height: 100%; }
+    p span.url a:hover { font-family: "Source Code Pro", monospace; font-size: 86%; line-height: 100%; }
     
     p span.list a:link { font-family: "Crimson Pro", serif; line-height: 150%; }
     p span.list a:visited { font-family: "Crimson Pro", serif; line-height: 150%; }
