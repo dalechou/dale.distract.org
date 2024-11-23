@@ -48,6 +48,6 @@
     p span.url a:visited { font-family: "Source Code Pro", monospace; font-size: 88%; line-height: 100%; }
     p span.url a:hover { font-family: "Source Code Pro", monospace; font-size: 88%; line-height: 100%; }
     
-    p span.list a:link { font-family: "Open Sans", sans-serif; line-height: 150%; }
-    p span.list a:visited { font-family: "Open Sans", sans-serif; line-height: 150%; }
-    p span.list a:hover { font-family: "Open Sans", sans-serif; line-height: 150%; }
+    p span.list a:link { font-family: "Crimson Pro", serif; line-height: 150%; }
+    p span.list a:visited { font-family: "Crimson Pro", serif; line-height: 150%; }
+    p span.list a:hover { font-family: "Crimson Pro", serif; line-height: 150%; }
