@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400);
 @import url(https://fonts.googleapis.com/css?family=Source+Serif+4:400);
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400);
 
@@ -30,7 +31,7 @@
 
 /* Not really affected by screen sizes */
 
-    h1 { font-family: "Source Serif 4", serif; }
+    h1 { font-family: "Montserrat", sans-serif; }
     p { font-family: "Source Serif 4", serif; }
 
     body { padding: 1% 2% 0% 1%; color: #d9d6d4; background-color: #423e3b; }
@@ -39,14 +40,14 @@
     a:visited { text-decoration: none; color: #fecc85; background-color: #423e3b; }
     a:hover { text-decoration: none; color: #423e3b; background-color: #d9d6d4; }
     
-    nav a:link { font-family: "Source Serif 4", serif; text-decoration: none; color: #fecc85; background-color: #423e3b; }
-    nav a:visited { font-family: "Source Serif 4", serif; text-decoration: none; color: #fecc85; background-color: #423e3b; }
-    nav a:hover { font-family: "Source Serif 4", serif; text-decoration: none; color: #423e3b; background-color: #d9d6d4; }
+    nav a:link { font-family: "Montserrat", sans-serif; text-decoration: none; color: #fecc85; background-color: #423e3b; }
+    nav a:visited { font-family: "Montserrat", sans-serif; text-decoration: none; color: #fecc85; background-color: #423e3b; }
+    nav a:hover { font-family: "Montserrat", sans-serif; text-decoration: none; color: #423e3b; background-color: #d9d6d4; }
     
     p span.url a:link { font-family: "Source Code Pro", monospace; font-size: 88%; line-height: 100%; }
     p span.url a:visited { font-family: "Source Code Pro", monospace; font-size: 88%; line-height: 100%; }
     p span.url a:hover { font-family: "Source Code Pro", monospace; font-size: 88%; line-height: 100%; }
     
-    p span.list a:link { font-family: "Source Serif 4", serif; line-height: 150%; }
-    p span.list a:visited { font-family: "Source Serif 4", serif; line-height: 150%; }
-    p span.list a:hover { font-family: "Source Serif 4", serif; line-height: 150%; }
+    p span.list a:link { font-family: "Montserrat", sans-serif; line-height: 150%; }
+    p span.list a:visited { font-family: "Montserrat", sans-serif; line-height: 150%; }
+    p span.list a:hover { font-family: "Montserrat", sans-serif; line-height: 150%; }
