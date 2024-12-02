@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400&display=auto");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400&display=auto');
 
 /* Set box-sizing property */
 * {
@@ -35,7 +35,7 @@ a:hover { text-decoration: none; color: #c5d9e2; }
 
 /* Set grid styles */
 .row::after {
-  content: "";
+  content: '';
   clear: both;
   display: table;
 }
