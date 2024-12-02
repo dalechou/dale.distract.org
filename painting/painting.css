@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;1,7..72,400&family=Quicksand:wght@400&display=auto");
+
+/* Latest breakpoint tuning: 2024-12-02 */
+/* Reference: https://docs.microsoft.com/en-us/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design */
+
+/* Breakpoint: small screen */
+
+@media all and (max-width: 640px) { 
+    body { color: #e2e2e2; background-color: #384d48; padding: 2% 1% 2% 1%; }
+}
+
+/* Breakpoint: medium screen */
+
+@media all and (min-width: 641px) and (max-width: 1007px) {
+    body { color: #e2e2e2; background-color: #384d48; padding: 2% 2% 2% 2%; }
+}
+
+/* Breakpoint: large screen */
+
+@media all and (min-width: 1008px) {
+    body { color: #e2e2e2; background-color: #384d48; padding: 2% 2% 2% 2%; }
+}
+
+/* Not really affected by screen sizes */
+
+    h1 { font-family: "Quicksand", serif; font-size: 200%; line-height: 150%; padding: 0% 0% 1% 0%; }
+    p { font-family: "Literata", serif; font-size: 130%; line-height: 130%; }
+    a:link { text-decoration: none; color: #acad94; background-color: #384d48; }
+    a:visited { text-decoration: none; color: #acad94; background-color: #384d48; }
+    a:hover { text-decoration: none; color: #384d48; background-color: #e2e2e2; }
+    img { padding: 1% 0% 0% 0%; }
