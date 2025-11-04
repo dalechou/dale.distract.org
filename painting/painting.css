@@ -33,9 +33,9 @@
     a:visited { text-decoration: none; color: #acad94; background-color: #384d48; }
     a:hover { text-decoration: none; color: #384d48; background-color: #e2e2e2; }
     img { padding: 1% 0% 0% 0%; }
-    nav a:link { font-family: 'Raleway', sans-serif; text-decoration: none; color: #c7e2b2; background-color: #092532; }
-    nav a:visited { font-family: 'Raleway', sans-serif; text-decoration: none; color: #c7e2b2; background-color: #092532; }
-    nav a:hover { font-family: 'Raleway', sans-serif; text-decoration: none; color: #092532; background-color: #89c9b8; }
+    nav a:link { font-family: 'Raleway', sans-serif; text-decoration: none; color: #c7e2b2; background-color: #384d48; }
+    nav a:visited { font-family: 'Raleway', sans-serif; text-decoration: none; color: #c7e2b2; background-color: #384d48; }
+    nav a:hover { font-family: 'Raleway', sans-serif; text-decoration: none; color: #384d48; background-color: #89c9b8; }
     p span.url a:link { font-family: 'Raleway', sans-serif; text-decoration: none; }
     p span.url a:visited { font-family: 'Raleway', sans-serif; text-decoration: none; }
     p span.url a:hover { font-family: 'Raleway', sans-serif; text-decoration: none; }
