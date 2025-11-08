@@ -9,7 +9,7 @@
     body { padding: 1% 2% 0% 1%; }    
     article { padding: 2% 0% 2% 0%; }
     h1 { font-size: 160%; line-height: 130%; }
-    h1 span.dedication { font-size: 81%; }
+    h1 span.dedication { font-size: 81%; padding: 0% 0% 0% 1%; }
     nav p { font-size: 130%; line-height: 150%; word-spacing: 16px; }
     nav img { width: 24px; height: auto; padding-right: 5%; }
     p { font-size: 130%; line-height: 150%; }
@@ -21,7 +21,7 @@
     body { padding: 1% 5% 0% 5%; }
     article { padding: 2% 0% 2% 0%; }
     h1 { font-size: 160%; line-height: 130%; }
-    h1 span.dedication { font-size: 81%; }
+    h1 span.dedication { font-size: 81%; padding: 0% 0% 0% 1%; }
     nav p { font-size: 130%; line-height: 150%; word-spacing: 20px; }
     nav img { width: 28px; height: auto; padding-right: 3%; }
     p { font-size: 130%; line-height: 150%; }
@@ -33,7 +33,7 @@
     body { padding: 1% 18% 0% 15%; }
     article { padding: 2% 0% 3% 0%; }
     h1 { font-size: 180%; line-height: 130%; }
-    h1 span.dedication { font-size: 75%; }
+    h1 span.dedication { font-size: 75%; padding: 0% 0% 0% 1%; }
     nav p { font-size: 150%; line-height: 150%; word-spacing: 24px; }
     nav img { width: 28px; height: auto; padding-right: 1%; }
     p { font-size: 150%; line-height: 150%; }
@@ -43,7 +43,7 @@
 
     body { color: #89c9b8; background-color: #092532; }
 
-    h1 { font-family: 'Source Serif 4', serif; font-style: italic; font-weight: 200; padding: 0% 0% 0% 1%; }
+    h1 { font-family: 'Source Serif 4', serif; font-style: italic; font-weight: 200; }
     pre { font-family: 'Source Code Pro', monospace; font-size: 130%; line-height: 150%; }
     pre span.part { font-family: 'Source Serif 4', serif; font-size: 113%; font-weight: 600; }
     pre span.stamp { font-family: 'Source Serif 4', serif; font-size: 97%; font-weight: 600; }
