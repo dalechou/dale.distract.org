@@ -11,7 +11,7 @@
     nav img { width: 24px; height: auto; padding-right: 5%; }
     article { padding: 2% 0% 2% 0%; }
     h1 { font-size: 160%; line-height: 130%; }
-    h1 span.dedication { font-size: 81%; font-style: italic; font-weight: 200; padding: 0% 0% 0% 1%; }
+    h1 span.dedication { font-size: 81%; font-style: italic; font-weight: 200; padding: 0% 1% 0% 1%; }
 }
 
 /* Breakpoint: medium screen */
@@ -22,7 +22,7 @@
     nav img { width: 28px; height: auto; padding-right: 3%; }
     article { padding: 2% 0% 2% 0%; }
     h1 { font-size: 160%; line-height: 130%; }
-    h1 span.dedication { font-size: 81%; font-style: italic; font-weight: 200; padding: 0% 0% 0% 1%; }
+    h1 span.dedication { font-size: 81%; font-style: italic; font-weight: 200; padding: 0% 5% 0% 5%; }
 }
 
 /* Breakpoint: large screen */
@@ -32,8 +32,8 @@
     nav p { font-size: 150%; line-height: 150%; word-spacing: 24px; }
     nav img { width: 28px; height: auto; padding-right: 1%; }
     article { padding: 2% 0% 3% 0%; }
-    h1 { font-size: 200%; line-height: 130%; }
-    h1 span.dedication { font-size: 75%; font-style: italic; font-weight: 200; padding: 0% 0% 0% 1%; }
+    h1 { font-size: 180%; line-height: 130%; }
+    h1 span.dedication { font-size: 75%; font-style: italic; font-weight: 200; padding: 0% 10% 0% 10%; }
 }
 
 /* Not really affected by screen sizes */
