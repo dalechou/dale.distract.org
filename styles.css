@@ -60,9 +60,7 @@
     p span.url a:visited { font-family: 'Source Code Pro', monospace; font-size: 85%; line-height: 100%; }
     p span.url a:hover { font-family: 'Source Code Pro', monospace; font-size: 85%; line-height: 100%; }
     
-    p span.list a:link { font-family: 'Source Serif 4', serif; font-size: 90%; line-height: 150%; }
-    p span.list a:visited { font-family: 'Source Serif 4', serif; font-size: 90%; line-height: 150%; }
-    p span.list a:hover { font-family: 'Source Serif 4', serif; font-size: 90%; line-height: 150%; }
+    p span.list { font-family: 'Source Serif 4', serif; font-size: 90%; line-height: 150%; }
     
     p span.inherit a:link { text-decoration: none; color: #c7e2b2; background-color: #092532; }
     p span.inherit a:visited { text-decoration: none; color: #c7e2b2; background-color: #092532; }
