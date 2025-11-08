@@ -56,9 +56,7 @@
     nav a:hover { font-family: 'Source Serif 4', serif; text-decoration: none; color: #092532; background-color: #89c9b8; }
     nav img { color: #c7e2b2; background-color: #092532; }
     
-    p span.url a:link { font-family: 'Source Code Pro', monospace; font-size: 85%; line-height: 100%; }
-    p span.url a:visited { font-family: 'Source Code Pro', monospace; font-size: 85%; line-height: 100%; }
-    p span.url a:hover { font-family: 'Source Code Pro', monospace; font-size: 85%; line-height: 100%; }
+    p span.url { font-family: 'Source Code Pro', monospace; font-size: 85%; line-height: 100%; }
     
     p span.list { font-family: 'Source Serif 4', serif; font-size: 90%; line-height: 150%; }
     
