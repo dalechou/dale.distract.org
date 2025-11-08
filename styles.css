@@ -6,7 +6,7 @@
 /* Breakpoint: small screen */
 
 @media all and (max-width: 640px) { 
-    body { padding: 1% 2% 0% 1%; }    
+    body { padding: 1% 2% 2% 1%; }    
     article { padding: 2% 0% 2% 0%; }
     h1 { font-size: 160%; line-height: 130%; }
     h1 span.dedication { font-size: 81%; padding: 0% 0% 0% 1%; }
@@ -18,7 +18,7 @@
 /* Breakpoint: medium screen */
 
 @media all and (min-width: 641px) and (max-width: 1007px) {
-    body { padding: 1% 5% 0% 5%; }
+    body { padding: 1% 5% 2% 5%; }
     article { padding: 2% 0% 2% 0%; }
     h1 { font-size: 160%; line-height: 130%; }
     h1 span.dedication { font-size: 81%; padding: 0% 0% 0% 1%; }
@@ -30,7 +30,7 @@
 /* Breakpoint: large screen */
 
 @media all and (min-width: 1008px) {
-    body { padding: 1% 18% 0% 15%; }
+    body { padding: 1% 18% 2% 15%; }
     article { padding: 2% 0% 3% 0%; }
     h1 { font-size: 180%; line-height: 130%; }
     h1 span.dedication { font-size: 75%; padding: 0% 0% 0% 1%; }
