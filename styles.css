@@ -11,7 +11,7 @@
     h1 span.dedication { font-size: 81%; padding: 0% 0% 0% 1%; }
     nav p { font-size: 130%; line-height: 150%; word-spacing: 16px; }
     nav img, img.nav { width: 24px; height: auto; padding-left: 1%; padding-right: 1%; }
-    p { font-size: 130%; line-height: 150%; }
+    p { font-size: 130%; line-height: 150%; font-weight: 400; }
 }
 
 /* Breakpoint: medium screen */
@@ -22,7 +22,7 @@
     h1 span.dedication { font-size: 81%; padding: 0% 0% 0% 1%; }
     nav p { font-size: 130%; line-height: 150%; word-spacing: 20px; }
     nav img, img.nav { width: 28px; height: auto; padding-left: 1%; padding-right: 1%; }
-    p { font-size: 130%; line-height: 150%; }
+    p { font-size: 130%; line-height: 150%; font-weight: 400; }
 }
 
 /* Breakpoint: large screen */
@@ -33,7 +33,7 @@
     h1 span.dedication { font-size: 75%; padding: 0% 0% 0% 1%; }
     nav p { font-size: 150%; line-height: 150%; word-spacing: 24px; }
     nav img, img.nav { width: 28px; height: auto; padding-left: 1%; padding-right: 1%; }
-    p { font-size: 150%; line-height: 150%; }
+    p { font-size: 150%; line-height: 150%; font-weight: 400; }
 }
 
 /* Not really affected by screen sizes */
