@@ -5,4 +5,7 @@ User-agent: ia_archiver
 Disallow: /poetry/
 
 User-agent: ia_archiver
+Disallow: /scrawl/
+
+User-agent: ia_archiver
 Disallow: /photography/

@@ -42,7 +42,7 @@
     
     article { padding: 2% 0% 2% 0%; }
 
-    h1 { font-family: 'Source Serif 4', serif; font-style: italic; font-weight: 200; }
+    h1 { font-family: 'Source Serif 4', serif; font-style: italic; font-weight: 500; }
     pre { font-family: 'Source Code Pro', monospace; font-size: 130%; line-height: 150%; }
     pre span.part { font-family: 'Source Serif 4', serif; font-size: 113%; font-weight: 600; }
     pre span.stamp { font-family: 'Source Serif 4', serif; font-size: 97%; font-weight: 600; }
