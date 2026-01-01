@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Dale Chou's contact information</title>
+    <link href='../styles.css' rel='stylesheet'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+</head>
+
+<body>
+<header>
+<nav>
+    <div id='mainnav'></div>
+    <script>
+    $(function(){
+        $('#mainnav').load('nav.html');
+    });
+    </script>
+</nav>
+</header>
+
+    <div id='contactinfo'></div>
+    <script>
+    $(function(){
+        $('#contactinfo').load('../contactinfo.html');
+    });
+    </script>
+
+</body>
+</html>
