@@ -42,7 +42,7 @@
     h1 span.dedication { font-size: 76%; padding: 0% 0% 0% 1%; font-weight: 400; }
     pre { font-family: 'Source Code Pro', monospace; font-size: 130%; line-height: 150%; }
     pre span.part { font-size: 113%; font-weight: 400; }
-    pre span.stamp { font-family: 'Source Serif 4', serif; font-size: 97%; font-weight: 400; }
+    pre span.stamp { font-family: 'Source Serif 4', serif; font-size: 97%; }
     pre span.time { font-size: 78%; line-height: 80%; }
  
     a:link { text-decoration: none; color: #89c9b8; background-color: #092532; }
