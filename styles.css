@@ -30,6 +30,8 @@
 /* Not really affected by screen sizes */
 
     a:link, a:visited, body:is(:lang(en), :lang(zh)) { line-height: 150%; text-decoration: none; color: #89c9b8; background-color: #092532; }
+    :is(a, p span.inherit a):hover { text-decoration: none; color: #092532; background-color: #89c9b8; }
+    :is(nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited)) { text-decoration: none; color: #c7e2b2; background-color: #092532; }
     body:lang(en) { font-family: 'Source Serif 4', serif; }
     body:lang(zh) { font-family: 'Noto Serif TC', serif; }
     
@@ -43,9 +45,6 @@
     pre span.part { font-size: 110%; font-weight: 600; }
     pre span.stamp { font-family: 'Source Serif 4', serif; font-size: 111%; }
     pre span.time { font-size: 86%; line-height: 74%; }
- 
-    :is(a, p span.inherit a):hover { text-decoration: none; color: #092532; background-color: #89c9b8; }
-    :is(nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited)) { text-decoration: none; color: #c7e2b2; background-color: #092532; }
        
     p span.url { font-family: 'Source Code Pro', monospace; font-size: 82%; }
     
