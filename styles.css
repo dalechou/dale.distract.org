@@ -16,13 +16,13 @@
 @media all and (min-width: 641px) and (max-width: 1007px) {
     body { padding: 1% 5% 2% 5%; font-size: 130%; }
     nav { word-spacing: 20px; }
-    nav img, img.nav { width: 28px; }
+    nav img, img.nav { width: 26px; }
 }
 
 /* Breakpoint: large screen */
 
 @media all and (min-width: 1008px) {   
-    body { padding: 2% 18% 2% 15%; font-size: 150%; }
+    body { padding: 1% 18% 2% 15%; font-size: 150%; }
     nav { word-spacing: 24px; }
     nav img, img.nav { width: 28px; }
 }
@@ -32,6 +32,8 @@
     a:link, a:visited, body:is(:lang(en), :lang(zh)) { line-height: 150%; text-decoration: none; color: #89c9b8; background-color: #092532; }
     body:lang(en) { font-family: 'Source Serif 4', serif; }
     body:lang(zh) { font-family: 'Noto Serif TC', serif; }
+    
+    nav { padding: 0% 0% 2% 0%; }
 
     article { padding: 2% 0% 2% 0%; }
 
