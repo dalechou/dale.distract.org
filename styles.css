@@ -33,7 +33,7 @@
     body:lang(en) { font-family: 'Source Serif 4', serif; }
     body:lang(zh) { font-family: 'Noto Serif TC', serif; }
     
-    nav { padding: 0% 0% 1% 0%; }
+    nav { padding: 0% 0% 10% 0%; }
 
     article { padding: 2% 0% 2% 0%; }
 
