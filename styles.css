@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;1,400&family=Source+Serif+4:ital,opsz,wght@0,400,700;1,400,700&display=auto');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;1,400&family=Source+Serif+4:ital,opsz,wght@0,400,700;1,400,700&family=Noto+Serif+TC:wght@600&display=auto');
 
 /* Latest breakpoint tuning: 2025-11-07 */
 /* Reference: https://docs.microsoft.com/en-us/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design */
@@ -27,7 +27,7 @@
 
 /* Breakpoint: large screen */
 
-@media all and (min-width: 1008px) {
+@media all and (min-width: 1008px) {   
     body { padding: 1% 18% 2% 15%; }
     h1 { font-size: 180%; line-height: 130%; }
     h1 span.dedication { font-size: 75%; padding: 0% 0% 0% 1%; font-weight: 400; }
@@ -38,31 +38,31 @@
 
 /* Not really affected by screen sizes */
 
-    body { color: #89c9b8; background-color: #092532; }
-    
+    body:is(:lang(en), :lang(zh)) { color: #89c9b8; background-color: #092532; }
+    body:lang(en) { font-family: 'Source Serif 4', serif; }
+    body:lang(zh) { font-family: 'Noto Serif TC', serif; }
+
     article { padding: 2% 0% 2% 0%; }
 
-    h1 { font-family: 'Source Serif 4', serif; font-style: italic; font-weight: 700; }
+    h1 { font-style: italic; font-weight: 700; }
     pre { font-family: 'Source Code Pro', monospace; font-size: 130%; line-height: 150%; }
-    pre span.part { font-family: 'Source Serif 4', serif; font-size: 113%; font-weight: 400; }
-    pre span.stamp { font-family: 'Source Serif 4', serif; font-size: 97%; font-weight: 400; }
+    pre span.part { font-size: 113%; font-weight: 400; }
+    pre span.stamp { font-size: 97%; font-weight: 400; }
     pre span.time { font-family: 'Source Code Pro', monospace; font-size: 78%; line-height: 80%; }
  
     a:link { text-decoration: none; color: #89c9b8; background-color: #092532; }
     a:visited { text-decoration: none; color: #89c9b8; background-color: #092532; }
     a:hover { text-decoration: none; color: #092532; background-color: #89c9b8; }
     
-    nav a:link { font-family: 'Source Serif 4', serif; text-decoration: none; color: #c7e2b2; background-color: #092532; }
-    nav a:visited { font-family: 'Source Serif 4', serif; text-decoration: none; color: #c7e2b2; background-color: #092532; }
-    nav a:hover { font-family: 'Source Serif 4', serif; text-decoration: none; color: #092532; background-color: #89c9b8; }
+    nav a:link { text-decoration: none; color: #c7e2b2; background-color: #092532; }
+    nav a:visited { text-decoration: none; color: #c7e2b2; background-color: #092532; }
+    nav a:hover { text-decoration: none; color: #092532; background-color: #89c9b8; }
     nav img { color: #c7e2b2; background-color: #092532; }
-    
-    p { font-family: 'Source Serif 4', serif; }
-    
+        
     p span.inherit a:link { text-decoration: none; color: #c7e2b2; background-color: #092532; }
     p span.inherit a:visited { text-decoration: none; color: #c7e2b2; background-color: #092532; }
     p span.inherit a:hover { text-decoration: none; color: #092532; background-color: #89c9b8; }
     
     p span.url { font-family: 'Source Code Pro', monospace; font-size: 85%; line-height: 100%; }
     
-    p span.list { font-family: 'Source Serif 4', serif; font-size: 93%; line-height: 150%; }
+    p span.list { font-size: 93%; line-height: 150%; }
