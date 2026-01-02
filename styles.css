@@ -35,16 +35,16 @@
 
     article { padding: 2% 0% 2% 0%; }
 
-    h1 { font-size: 113%; font-style: italic; font-weight: 700; }
+    h1 { font-size: 110%; font-style: italic; font-weight: 700; }
     h1 span.dedication { font-size: 76%; padding: 0% 0% 0% 1%; font-weight: 400; }
     pre { font-family: 'Source Code Pro', monospace; font-size: 85%; }
-    pre span.part { font-size: 113%; font-weight: 400; }
+    pre span.part { font-size: 110%; font-weight: 400; }
     pre span.stamp { font-family: 'Source Serif 4', serif; font-size: 112%; }
     pre span.time { font-size: 80%; line-height: 80%; }
  
     a:is(:hover, p span.inherit &) { text-decoration: none; color: #092532; background-color: #89c9b8; }   
     :is(nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited)) { text-decoration: none; color: #c7e2b2; background-color: #092532; }
        
-    p span.url { font-family: 'Source Code Pro', monospace; font-size: 85%; }
+    p span.url { font-family: 'Source Code Pro', monospace; font-size: 82%; }
     
     p span.list { font-size: 93%; }
