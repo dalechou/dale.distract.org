@@ -7,27 +7,27 @@
 
 @media all and (max-width: 640px) { 
     body { padding: 1% 2% 2% 1%; }    
-    nav p { font-size: 130%; line-height: 150%; word-spacing: 16px; }
+    nav { word-spacing: 16px; }
     nav img, img.nav { width: 24px; height: auto; padding-left: 1%; padding-right: 1%; }
-    p { font-size: 130%; line-height: 150%; font-weight: 400; }
+    p { font-size: 130%; }
 }
 
 /* Breakpoint: medium screen */
 
 @media all and (min-width: 641px) and (max-width: 1007px) {
     body { padding: 1% 5% 2% 5%; }
-    nav p { font-size: 130%; line-height: 150%; word-spacing: 20px; }
+    nav { word-spacing: 20px; }
     nav img, img.nav { width: 28px; height: auto; padding-left: 1%; padding-right: 1%; }
-    p { font-size: 130%; line-height: 150%; font-weight: 400; }
+    p { font-size: 130%; }
 }
 
 /* Breakpoint: large screen */
 
 @media all and (min-width: 1008px) {   
     body { padding: 1% 18% 2% 15%; }
-    nav p { font-size: 150%; line-height: 150%; word-spacing: 24px; }
+    nav { word-spacing: 24px; }
     nav img, img.nav { width: 28px; height: auto; padding-left: 1%; padding-right: 1%; }
-    p { font-size: 150%; line-height: 150%; font-weight: 400; }
+    p { font-size: 150%; }
 }
 
 /* Not really affected by screen sizes */
@@ -53,7 +53,9 @@
     nav a:visited { text-decoration: none; color: #c7e2b2; background-color: #092532; }
     nav a:hover { text-decoration: none; color: #092532; background-color: #89c9b8; }
     nav img { color: #c7e2b2; background-color: #092532; }
-        
+    
+    p { line-height: 150%; font-weight: 400; }
+    
     p span.inherit a:link { text-decoration: none; color: #c7e2b2; background-color: #092532; }
     p span.inherit a:visited { text-decoration: none; color: #c7e2b2; background-color: #092532; }
     p span.inherit a:hover { text-decoration: none; color: #092532; background-color: #89c9b8; }
