@@ -6,28 +6,25 @@
 /* Breakpoint: small screen */
 
 @media all and (max-width: 640px) { 
-    body { padding: 1% 2% 2% 1%; }    
+    body { padding: 1% 2% 2% 1%; font-size: 130%; }    
     nav { word-spacing: 16px; }
-    nav img, img.nav { width: 24px; height: auto; padding-left: 1%; padding-right: 1%; }
-    p { font-size: 130%; }
+    nav img, img.nav { width: 24px; padding-left: 1%; padding-right: 1%; }
 }
 
 /* Breakpoint: medium screen */
 
 @media all and (min-width: 641px) and (max-width: 1007px) {
-    body { padding: 1% 5% 2% 5%; }
+    body { padding: 1% 5% 2% 5%; font-size: 130%; }
     nav { word-spacing: 20px; }
-    nav img, img.nav { width: 28px; height: auto; padding-left: 1%; padding-right: 1%; }
-    p { font-size: 130%; }
+    nav img, img.nav { width: 28px; }
 }
 
 /* Breakpoint: large screen */
 
 @media all and (min-width: 1008px) {   
-    body { padding: 1% 18% 2% 15%; }
+    body { padding: 1% 18% 2% 15%; font-size: 150%; }
     nav { word-spacing: 24px; }
-    nav img, img.nav { width: 28px; height: auto; padding-left: 1%; padding-right: 1%; }
-    p { font-size: 150%; }
+    nav img, img.nav { width: 28px; }
 }
 
 /* Not really affected by screen sizes */
