@@ -16,7 +16,7 @@
 @media all and (min-width: 641px) and (max-width: 1007px) {
     body { padding: 0% 5% 2% 5%; font-size: 130%; }
     nav { word-spacing: 20px; }
-    nav img, img.nav { width: 26px; }
+    nav img, img.nav { width: 25px; }
 }
 
 /* Breakpoint: large screen */
@@ -24,7 +24,7 @@
 @media all and (min-width: 1008px) {   
     body { padding: 0% 18% 2% 15%; font-size: 150%; }
     nav { word-spacing: 24px; }
-    nav img, img.nav { width: 28px; }
+    nav img, img.nav { width: 26px; }
 }
 
 /* Not really affected by screen sizes */
