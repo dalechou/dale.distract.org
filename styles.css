@@ -6,7 +6,7 @@
 /* Breakpoint: small screen */
 
 @media all and (max-width: 640px) { 
-    body { padding: 1% 2% 2% 1%; font-size: 130%; }    
+    body { padding: 0% 2% 2% 1%; font-size: 130%; }    
     nav { word-spacing: 16px; }
     nav img, img.nav { width: 24px; padding-left: 1%; padding-right: 1%; }
 }
@@ -14,7 +14,7 @@
 /* Breakpoint: medium screen */
 
 @media all and (min-width: 641px) and (max-width: 1007px) {
-    body { padding: 1% 5% 2% 5%; font-size: 130%; }
+    body { padding: 0% 5% 2% 5%; font-size: 130%; }
     nav { word-spacing: 20px; }
     nav img, img.nav { width: 26px; }
 }
@@ -22,7 +22,7 @@
 /* Breakpoint: large screen */
 
 @media all and (min-width: 1008px) {   
-    body { padding: 1% 18% 2% 15%; font-size: 150%; }
+    body { padding: 0% 18% 2% 15%; font-size: 150%; }
     nav { word-spacing: 24px; }
     nav img, img.nav { width: 28px; }
 }
@@ -33,7 +33,7 @@
     body:lang(en) { font-family: 'Source Serif 4', serif; }
     body:lang(zh) { font-family: 'Noto Serif TC', serif; }
     
-    nav { padding: 0% 0% 10% 0%; }
+    nav { padding: 1% 0% 1% 0%; }
 
     article { padding: 2% 0% 2% 0%; }
 
