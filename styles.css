@@ -41,6 +41,7 @@
 
     h1 { font-size: 112%; font-style: italic; font-weight: 700; }
     h1 span.dedication { font-size: 76%; padding: 0% 0% 0% 1%; font-weight: 400; }
+
     pre { font-family: 'Source Code Pro', monospace; font-size: 85%; }
     pre span.part { font-size: 110%; font-weight: 600; }
     pre span.stamp { font-family: 'Source Serif 4', serif; font-size: 111%; }
