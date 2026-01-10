@@ -22,7 +22,7 @@
 /* Breakpoint: large screen */
 
 @media all and (min-width: 1008px) {   
-    body { padding: 0% 18% 2% 15%; font-size: 150%; }
+    body { padding: 0% 18% 2% 15%; font-size: 145%; }
     nav { word-spacing: 24px; }
     nav img, img.nav { width: 26px; }
 }
