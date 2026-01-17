@@ -29,8 +29,8 @@
 
 /* Not really affected by screen sizes */
 
-    :is(a:is(:link, :visited), body:is(:lang(en), :lang(zh)), nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited)) { text-decoration: none; color: #89c9b8; background-color: #092532; line-height: 150%; }
     :is(nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited)) { color: #c7e2b2; }
+    :is(a:is(:link, :visited), body:is(:lang(en), :lang(zh)), nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited)) { text-decoration: none; color: #89c9b8; background-color: #092532; line-height: 150%; }
     :is(a, p span.inherit a):hover { text-decoration: none; color: #092532; background-color: #89c9b8; }
     body { font-family: 'Zen Maru Gothic', serif; }
     

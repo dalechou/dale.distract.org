@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400&display=auto');
+@import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&display=auto');
 
 /* Set box-sizing property */
 * {
@@ -7,7 +7,7 @@
 
 /* Set body font and background color */
 body {
-  font-family: Fira Mono, monospace;
+  font-family: Cactus Classic Serif, serif;
   background-color: #1b2e36;
   margin: 0;
 }
