@@ -32,12 +32,12 @@
     :is(a:is(:link, :visited), body:is(:lang(en), :lang(zh)), nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited)) { text-decoration: none; color: #89c9b8; background-color: #092532; line-height: 150%; }
     :is(nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited)) { color: #c7e2b2; }
     :is(a, p span.inherit a):hover { text-decoration: none; color: #092532; background-color: #89c9b8; }
-    body:lang(en) { font-family: 'Source Serif 4', serif; }
-    body:lang(zh) { font-family: 'Noto Serif TC', serif; }
+    body { font-family: 'Source Serif 4', serif; }
     
     nav { padding: 1% 0% 1% 0%; }
 
     article { padding: 2% 0% 2% 0%; }
+    article:lang(zh) { font-family: 'Noto Serif TC', serif; font-size: 70%; }
 
     h1 { font-size: 112%; font-style: italic; font-weight: 700; }
     h1 span.dedication { font-size: 76%; padding: 0% 0% 0% 1%; font-weight: 400; }
