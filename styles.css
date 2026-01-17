@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=Source+Code+Pro:ital@0;1&family=Zen+Maru+Gothic:wght@400;700&display=auto');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&family=Zen+Maru+Gothic:wght@400;700&family=Cactus+Classical+Serif&display=auto');
 
 /* Latest breakpoint tuning: 2025-11-07 */
 /* Reference: https://docs.microsoft.com/en-us/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design */
@@ -29,10 +29,11 @@
 
 /* Not really affected by screen sizes */
 
-    :is(nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited)) { color: #c7e2b2; }
     :is(a:is(:link, :visited), body:is(:lang(en), :lang(zh)), nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited)) { text-decoration: none; color: #89c9b8; background-color: #092532; line-height: 150%; }
     :is(a, p span.inherit a):hover { text-decoration: none; color: #092532; background-color: #89c9b8; }
-    body { font-family: 'Zen Maru Gothic', serif; }
+    :is(nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited)) { color: #c7e2b2; }
+    
+    body { font-family: 'Zen Maru Gothic', sans-serif; }
     
     nav { padding: 1% 0% 1% 0%; }
 
@@ -44,7 +45,7 @@
 
     pre { font-family: 'Source Code Pro', monospace; font-size: 85%; }
     pre span.part { font-size: 120%; }
-    pre span.stamp { font-family: 'Zen Maru Gothic', serif; font-size: 111%; }
+    pre span.stamp { font-family: 'Zen Maru Gothic', sans-serif; font-size: 111%; }
     pre span.time { font-size: 86%; line-height: 74%; }
        
     p span.url { font-family: 'Source Code Pro', monospace; font-size: 82%; }
