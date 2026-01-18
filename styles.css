@@ -40,7 +40,7 @@
     article { padding: 2% 0% 2% 0%; }
     article:lang(zh) { font-family: 'Cactus Classical Serif', serif; font-size: 85%; }
 
-    h1 { font-size: 112%; font-style: italic; font-weight: 700; }
+    h1 { font-size: 112%; font-weight: 700; }
     h1 span.dedication { font-size: 76%; padding: 0% 0% 0% 1%; font-weight: 400; }
 
     pre { font-family: 'Source Code Pro', monospace; font-size: 85%; }
