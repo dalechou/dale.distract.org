@@ -50,6 +50,10 @@ a:hover {
     text-decoration: none; 
 }
 
+:is(span.inherit a:hover, nav:is(:hover) {
+    color: #d5e6ec;
+}
+
 .material-symbols-rounded {
     font-variation-settings:
     'FILL' 0,
