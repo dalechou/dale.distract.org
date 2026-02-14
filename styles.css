@@ -34,28 +34,29 @@
 /* This sets the overall palette (check contrast!) */
 
 :is(a:is(:link, :visited), body:is(:lang(en), :lang(zh)), nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited), .material-symbols-rounded) {
-    text-decoration: none; 
     color: #153751; 
     background-color: #d5e6ec; 
+    text-decoration: none;
     line-height: 150%; 
+}
+
+/* Set special accent */
+:is(nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited), .material-symbols-rounded) {
+    color: #a37774;
+    text-decoration: none;
+}
+
+/* The 'color' here should be the 'background-color' of overall palette */
+:is(.material-symbols-rounded:is(a:hover) {
+    color: #d5e6ec;
+    text-decoration: none;
 }
 
 /* The 'background-color' here should be the 'color' of overall palette */
 
-:is(a, p span.inherit a, .material-symbols-rounded):hover { 
-    text-decoration: none; 
+:is(a, p span.inherit a):hover { 
     background-color: #153751; 
-}
-
-/* The 'color' here should be the 'background-color' of overall palette */
-.material-symbols-rounded:hover {
-    color: #d5e6ec; 
-}
-
-/* Set special accent */
-:is(nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited), .material-symbols-rounded) { 
-    text-decoration: none; 
-    color: #a37774; 
+    text-decoration: none;
 }
 
 .material-symbols-rounded {
