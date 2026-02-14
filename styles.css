@@ -33,47 +33,54 @@
 
 /* This sets the overall palette (check contrast!) */
 
-    :is(a:is(:link, :visited), body:is(:lang(en), :lang(zh)), nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited), .material-symbols-rounded) { 
-        text-decoration: none; 
-        color: #153751; 
-        background-color: #d5e6ec; 
-        line-height: 150%; 
-    }
+:is(a:is(:link, :visited), body:is(:lang(en), :lang(zh)), nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited), .material-symbols-rounded) {
+    text-decoration: none; 
+    color: #153751; 
+    background-color: #d5e6ec; 
+    line-height: 150%; 
+}
 
-    :is(a, p span.inherit a, .material-symbols-rounded):hover { 
-        text-decoration: none; 
-        color: #d5e6ec; 
-        background-color: #153751; 
-    }
+/* The 'background-color' here should be the 'color' of overall palette */
 
-    :is(nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited), .material-symbols-rounded) { 
-        text-decoration: none;
-        color: #a37774;
-    }
+:is(a, p span.inherit a, .material-symbols-rounded):hover { 
+    text-decoration: none; 
+    background-color: #153751; 
+}
 
-    .material-symbols-rounded {
-        font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 24;
-    }
+/* The 'color' here should be the 'background-color' of overall palette */
+.material-symbols-rounded:hover {
+    color: #d5e6ec; 
+}
+
+/* Set special accent */
+:is(nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited), .material-symbols-rounded) { 
+    text-decoration: none; 
+    color: #a37774; 
+}
+
+.material-symbols-rounded {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
     
-    body { font-family: 'Zen Maru Gothic', sans-serif; }
+body { font-family: 'Zen Maru Gothic', sans-serif; }
     
-    nav { padding: 1% 0% 1% 0%; }
+nav { padding: 1% 0% 1% 0%; }
 
-    article { padding: 2% 0% 2% 0%; }
-    article:lang(zh) { font-family: 'Cactus Classical Serif', serif; font-size: 85%; }
+article { padding: 2% 0% 2% 0%; }
+article:lang(zh) { font-family: 'Cactus Classical Serif', serif; font-size: 85%; }
 
-    h1 { font-size: 112%; font-weight: 700; }
-    h1 span.dedication { font-size: 76%; padding: 0% 0% 0% 1%; font-weight: 400; }
+h1 { font-size: 112%; font-weight: 700; }
+h1 span.dedication { font-size: 76%; padding: 0% 0% 0% 1%; font-weight: 400; }
 
-    pre { font-family: 'Source Code Pro', monospace; font-size: 85%; }
-    pre span.part { font-size: 120%; }
-    pre span.stamp { font-family: 'Zen Maru Gothic', sans-serif; font-size: 111%; }
-    pre span.time { font-size: 86%; line-height: 74%; }
+pre { font-family: 'Source Code Pro', monospace; font-size: 85%; }
+pre span.part { font-size: 120%; }
+pre span.stamp { font-family: 'Zen Maru Gothic', sans-serif; font-size: 111%; }
+pre span.time { font-size: 86%; line-height: 74%; }
        
-    p span.url { font-family: 'Source Code Pro', monospace; font-size: 82%; }
+p span.url { font-family: 'Source Code Pro', monospace; font-size: 82%; }
     
-    p span.list { font-size: 93%; }
+p span.list { font-size: 93%; }
