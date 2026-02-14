@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&family=Zen+Maru+Gothic:wght@400;700&family=Cactus+Classical+Serif&display=auto');
 
 
@@ -30,24 +31,24 @@
 
 /* Not really affected by screen sizes */
 
-    :is(a:is(:link, :visited), body:is(:lang(en), :lang(zh)), nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited), .material-symbols-outlined) { 
+    :is(a:is(:link, :visited), body:is(:lang(en), :lang(zh)), nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited), .material-symbols-rounded) { 
         text-decoration: none; 
         color: #363537; 
         background-color: #fff4e4; 
         line-height: 150%; 
     }
 
-    :is(a, p span.inherit a, .material-symbols-outlined):hover { 
+    :is(a, p span.inherit a, .material-symbols-rounded):hover { 
         text-decoration: none; 
         color: #fff4e4; 
         background-color: #363537; 
     }
 
-    :is(nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited), .material-symbols-outlined) { 
+    :is(nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited), .material-symbols-rounded) { 
         color: #f95738; 
     }
 
-    .material-symbols-outlined {
+    .material-symbols-rounded {
         font-variation-settings:
         'FILL' 0,
         'wght' 400,
