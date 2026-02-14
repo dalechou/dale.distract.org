@@ -33,17 +33,20 @@
 
 /* This sets the overall palette (check contrast!) */
 
-:is(body) {
+:is(body, a:is(:link, :visited)) {
     color: #153751;
     background-color: #d5e6ec;
+    text-decoration: none; 
 }
 
 :is(span.inherit a:is(:link, :visited), .material-symbols-rounded) {
     color: #a37774;
+    text-decoration: none; 
 }
 
 a:hover {
     background-color: #153751;
+    text-decoration: none; 
 }
 
 .material-symbols-rounded {
@@ -54,7 +57,7 @@ a:hover {
     'opsz' 24;
 }
     
-body { font-family: 'Zen Maru Gothic', sans-serif; text-decoration: none; line-height: 150%; }
+body { font-family: 'Zen Maru Gothic', sans-serif; line-height: 150%; }
     
 nav { padding: 1% 0% 1% 0%; }
 
