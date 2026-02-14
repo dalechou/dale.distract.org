@@ -50,7 +50,7 @@ a:hover {
     text-decoration: none; 
 }
 
-:is(span.inherit a:hover) {
+:is(span.inherit a:hover, nav a:hover) {
     color: #d5e6ec;
 }
 
