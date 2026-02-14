@@ -48,7 +48,7 @@
 
 /* This is what the hover looks like */
 
-:is(a:hover, .material-symbols-rounded:hover) {
+:is(a:hover, span.inherit a:hover, .material-symbols-rounded:hover) {
     color: #d5e6ec;
     background-color: #153751;
     text-decoration: none; 
