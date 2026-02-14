@@ -40,16 +40,10 @@
         line-height: 150%; 
     }
 
-    :is(a):hover { 
+    :is(a, p span.inherit a, .material-symbols-rounded):hover { 
         text-decoration: none; 
         color: #d5e6ec; 
         background-color: #153751; 
-    }
-
-    :is(p span.inherit a, .material-symbols-rounded):hover { 
-        text-decoration: none; 
-        color: #d5e6ec; 
-        background-color: #a37774; 
     }
 
     :is(nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited), .material-symbols-rounded) { 
