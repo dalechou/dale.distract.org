@@ -33,30 +33,17 @@
 
 /* This sets the overall palette (check contrast!) */
 
-:is(a:is(:link, :visited), body:is(:lang(en), :lang(zh)), nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited), .material-symbols-rounded) {
-    color: #153751; 
-    background-color: #d5e6ec; 
-    text-decoration: none;
-    line-height: 150%; 
+:is(body) {
+    color: #153751;
+    background-color: #d5e6ec;
 }
 
-/* Set special accent */
-:is(nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited), .material-symbols-rounded) {
+:is(body, p span.inherit a:is(:link, :visited), .material-symbols-rounded) {
     color: #a37774;
-    text-decoration: none;
 }
 
-/* The 'color' here should be the 'background-color' of overall palette */
-:is(.material-symbols-rounded:is(a:hover) {
-    color: #d5e6ec;
-    text-decoration: none;
-}
-
-/* The 'background-color' here should be the 'color' of overall palette */
-
-:is(a, p span.inherit a):hover { 
-    background-color: #153751; 
-    text-decoration: none;
+:is(:hover) {
+    background-color: #153751;
 }
 
 .material-symbols-rounded {
@@ -67,7 +54,7 @@
     'opsz' 24;
 }
     
-body { font-family: 'Zen Maru Gothic', sans-serif; }
+body { font-family: 'Zen Maru Gothic', sans-serif; text-decoration: none; line-height: 150%; }
     
 nav { padding: 1% 0% 1% 0%; }
 
