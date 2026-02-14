@@ -31,8 +31,6 @@
 
 /* Not really affected by screen sizes */
 
-/* This sets the overall palette (remember to check contrast) */
-
     :is(a:is(:link, :visited), body:is(:lang(en), :lang(zh)), nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited), .material-symbols-rounded) { 
         text-decoration: none; 
         color: #153751; 
@@ -40,19 +38,21 @@
         line-height: 150%; 
     }
 
-/* This sets the hover, which is an inverse of the above */
-
-    :is(a, p span.inherit a, .material-symbols-rounded):hover { 
+    :is(a):hover { 
         text-decoration: none; 
         color: #d5e6ec; 
         background-color: #153751; 
     }
 
-/* This sets the emphasised links */
+    :is(p span.inherit a, .material-symbols-rounded):hover { 
+        text-decoration: none; 
+        color: #d5e6ec; 
+        background-color: #a37774; 
+    }
 
     :is(nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited), .material-symbols-rounded) { 
+        text-decoration: none;
         color: #a37774;
-        background-color: #d5e6ec; 
     }
 
     .material-symbols-rounded {
