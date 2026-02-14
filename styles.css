@@ -45,6 +45,7 @@
 }
 
 a:hover {
+    color: #d5e6ec;
     background-color: #153751;
     text-decoration: none; 
 }
