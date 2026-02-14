@@ -38,11 +38,11 @@
     background-color: #d5e6ec;
 }
 
-:is(body, p span.inherit a:is(:link, :visited), .material-symbols-rounded) {
+:is(span.inherit a:is(:link, :visited), .material-symbols-rounded) {
     color: #a37774;
 }
 
-:is(:hover) {
+a:hover {
     background-color: #153751;
 }
 
