@@ -39,19 +39,19 @@
     text-decoration: none; 
 }
 
+/* This is the accent of the overall palette */
+
 :is(span.inherit a:is(:link, :visited), .material-symbols-rounded) {
     color: #a37774;
     text-decoration: none; 
 }
 
-a:hover {
+/* This is what the hover looks like */
+
+:is(a:hover, span.inherit a:hover, .material-symbols-rounded:hover) {
     color: #d5e6ec;
     background-color: #153751;
     text-decoration: none; 
-}
-
-:is(span.inherit a:hover, .material-symbols-rounded:hover) {
-    color: #d5e6ec;
 }
 
 .material-symbols-rounded {
