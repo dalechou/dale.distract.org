@@ -44,14 +44,15 @@
 
     :is(a, p span.inherit a, .material-symbols-rounded):hover { 
         text-decoration: none; 
-        color: #a37774; 
+        color: #d5e6ec; 
         background-color: #153751; 
     }
 
 /* This sets the emphasised links */
 
     :is(nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited), .material-symbols-rounded) { 
-        color: #a37774; 
+        color: #a37774;
+        background-color: #d5e6ec; 
     }
 
     .material-symbols-rounded {
