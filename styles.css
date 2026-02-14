@@ -31,6 +31,8 @@
 
 /* Not really affected by screen sizes */
 
+/* This sets the overall palette (check contrast!) */
+
     :is(a:is(:link, :visited), body:is(:lang(en), :lang(zh)), nav:is(a:is(:link, :visited), img), p span.inherit a:is(:link, :visited), .material-symbols-rounded) { 
         text-decoration: none; 
         color: #153751; 
