@@ -100,7 +100,6 @@ p span.list { font-size: 93%; }
 .portfolio-item img {
     width: 100%;
     height: auto;
-    margin-bottom: 5px;
     cursor: pointer;
 }
 .lightbox {
