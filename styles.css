@@ -11,6 +11,7 @@
     body { padding: 0% 2% 2% 1%; font-size: 130%; }    
     nav { word-spacing: 16px; }
     nav img, img.nav { width: 24px; padding-left: 1%; padding-right: 1%; }
+    .portfolio-grid { grid-template-columns: 1fr; }
 }
 
 /* Breakpoint: medium screen */
@@ -19,6 +20,7 @@
     body { padding: 0% 5% 2% 5%; font-size: 130%; }
     nav { word-spacing: 20px; }
     nav img, img.nav { width: 25px; }
+    .portfolio-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 /* Breakpoint: large screen */
@@ -27,6 +29,7 @@
     body { padding: 0% 18% 2% 15%; font-size: 145%; }
     nav { word-spacing: 24px; }
     nav img, img.nav { width: 26px; }
+    .portfolio-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
 /* Not really affected by screen sizes */
@@ -80,3 +83,85 @@ pre span.time { font-size: 86%; line-height: 74%; }
 p span.url { font-family: 'Source Code Pro', monospace; font-size: 82%; }
     
 p span.list { font-size: 93%; }
+
+/* Photography Portfolio */
+
+.portfolio-grid {
+    display: grid;
+    gap: 2%;
+    margin: 2% 0%;
+}
+
+.portfolio-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1%;
+    cursor: pointer;
+}
+
+.portfolio-item p {
+    font-size: 93%;
+    margin: 0% 0% 0.5% 0%;
+}
+
+/* Lightbox */
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 55, 81, 0.95);
+    padding: 2%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.lightbox.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lightbox-content {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+}
+
+.lightbox-content img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    font-size: 200%;
+    font-weight: bold;
+    color: #e3eef2;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lightbox-close:hover {
+    color: #8b2635;
+}
