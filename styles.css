@@ -98,7 +98,7 @@ p span.list { font-size: 93%; }
 .portfolio-item img {
     width: 100%;
     height: auto;
-    display: block;
+    display: grid;
     margin-bottom: 1%;
     cursor: pointer;
 }
