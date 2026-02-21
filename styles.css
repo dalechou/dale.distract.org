@@ -65,7 +65,7 @@
     'opsz' 24;
 }
     
-body { display: grid; grid-template-rows: 1fr auto; font-family: 'Zen Maru Gothic', sans-serif; line-height: 150%; }
+body { font-family: 'Zen Maru Gothic', sans-serif; line-height: 150%; }
     
 nav { padding: 1% 0% 1% 0%; }
 
@@ -153,4 +153,4 @@ p span.list { font-size: 93%; }
 
 /* Footer */
 
-footer { grid-row: last; padding: 1% 0% 1% 0%; }
+footer { display: block; padding: 1% 0% 1% 0%; }
