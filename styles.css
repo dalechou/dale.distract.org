@@ -65,10 +65,9 @@
     'opsz' 24;
 }
 
-html, body { height: 100%; }    
-body { display: flex; flex-direction: column; font-family: 'Zen Maru Gothic', sans-serif; line-height: 150%; }
+body { min-height: 100vh; display: grid; grid-template-rows: 1fr auto; font-family: 'Zen Maru Gothic', sans-serif; line-height: 150%; }
     
-nav { display: block; padding: 1% 0% 1% 0%; }
+nav { padding: 1% 0% 1% 0%; }
 
 article { padding: 2% 0% 2% 0%; }
 article:lang(zh) { font-family: 'Cactus Classical Serif', serif; font-size: 85%; }
