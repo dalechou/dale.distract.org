@@ -150,3 +150,17 @@ p span.list { font-size: 93%; }
     align-items: center;
     justify-content: center;
 }
+
+/* Footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1% 0%;
+    z-index: 999;
+}
+body {
+    padding-bottom: 80px;
+}
