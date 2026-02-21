@@ -65,7 +65,7 @@
     'opsz' 24;
 }
     
-body { font-family: 'Zen Maru Gothic', sans-serif; line-height: 150%; }
+body { display: flex; flex-direction: column; font-family: 'Zen Maru Gothic', sans-serif; line-height: 150%; }
     
 nav { padding: 1% 0% 1% 0%; }
 
@@ -89,7 +89,7 @@ p span.list { font-size: 93%; }
 .portfolio-grid {
     display: grid;
     gap: 2%;
-    margin: 2% 1%;
+    margin: 2% 0% 0% 0%;
 }
 .portfolio-item {
     display: flex;
@@ -153,14 +153,4 @@ p span.list { font-size: 93%; }
 
 /* Footer */
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 1% 0%;
-    z-index: 999;
-}
-body {
-    padding-bottom: 80px;
-}
+footer { margin-top: auto; }
