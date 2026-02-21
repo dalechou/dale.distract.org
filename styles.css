@@ -84,6 +84,8 @@ p span.url { font-family: 'Source Code Pro', monospace; font-size: 82%; }
     
 p span.list { font-size: 93%; }
 
+footer { margin-top: auto; padding: 1% 0%; }
+
 /* Portfolio */
 
 .portfolio-grid {
@@ -150,5 +152,3 @@ p span.list { font-size: 93%; }
     align-items: center;
     justify-content: center;
 }
-
-footer { margin-top: auto; padding: 1% 0%; }
