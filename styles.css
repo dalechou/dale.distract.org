@@ -93,12 +93,10 @@ p span.list { font-size: 93%; }
 }
 .portfolio-item {
     display: grid;
-    border-style: dotted;
 }
 .portfolio-item img {
     width: 100%;
     height: auto;
-    display: block;
     margin-bottom: 1%;
     cursor: pointer;
 }
