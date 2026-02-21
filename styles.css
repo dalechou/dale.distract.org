@@ -77,8 +77,8 @@ h1 span.dedication { font-size: 76%; padding: 0% 0% 0% 1%; font-weight: 400; }
 
 pre { font-family: 'Source Code Pro', monospace; font-size: 85%; }
 pre span.part { font-size: 120%; }
-pre span.stamp { font-family: 'Zen Maru Gothic', sans-serif; font-size: 111%; }
-pre span.time, .portfolio-item { font-size: 86%; line-height: 95%; }
+pre span.stamp { font-family: 'Zen Maru Gothic', sans-serif; font-size: 111%; line-height: 50%; }
+pre span.time, .portfolio-item { font-size: 86%; }
        
 p span.url { font-family: 'Source Code Pro', monospace; font-size: 82%; }
     
