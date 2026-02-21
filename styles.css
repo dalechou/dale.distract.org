@@ -92,13 +92,13 @@ p span.list { font-size: 93%; }
     margin: 2% 0% 0% 0%;
 }
 .portfolio-item {
-    display: flex;
+    display: grid;
     flex-direction: column;
 }
 .portfolio-item img {
     width: 100%;
     height: auto;
-    display: grid;
+    display: block;
     margin-bottom: 1%;
     cursor: pointer;
 }
