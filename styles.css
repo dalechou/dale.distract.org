@@ -11,7 +11,7 @@
     body { padding: 0% 2% 2% 1%; font-size: 130%; }    
     nav { word-spacing: 16px; }
     nav img, img.nav { width: 24px; padding-left: 1%; padding-right: 1%; }
-    .portfolio-grid { grid-template-columns: 1fr; }
+    .portfolio-item { flex: 0 0 calc((100% - 40px) / 1); }
 }
 
 /* Breakpoint: medium screen */
@@ -20,7 +20,7 @@
     body { padding: 0% 5% 2% 5%; font-size: 130%; }
     nav { word-spacing: 20px; }
     nav img, img.nav { width: 25px; }
-    .portfolio-grid { grid-template-columns: repeat(2, 1fr); }
+    .portfolio-item { flex: 0 0 calc((100% - 40px) / 2); }
 }
 
 /* Breakpoint: large screen */
@@ -29,7 +29,7 @@
     body { padding: 0% 18% 2% 15%; font-size: 145%; }
     nav { word-spacing: 24px; }
     nav img, img.nav { width: 26px; }
-    .portfolio-grid { grid-template-columns: repeat(2, 1fr); }
+    .portfolio-item { flex: 0 0 calc((100% - 40px) / 3); }
 }
 
 /* Not really affected by screen sizes */
@@ -87,9 +87,10 @@ p span.list { font-size: 93%; }
 /* Portfolio */
 
 .portfolio-grid {
-    display: grid;
-    gap: 2%;
-    margin: 1% 0% 0% 0%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .portfolio-item {
     display: flex;
