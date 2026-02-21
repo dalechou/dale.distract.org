@@ -64,8 +64,9 @@
     'GRAD' 0,
     'opsz' 24;
 }
-    
-body { font-family: 'Zen Maru Gothic', sans-serif; line-height: 150%; }
+
+html, body { height: 100%; }    
+body { display: flex; flex-direction: column; font-family: 'Zen Maru Gothic', sans-serif; line-height: 150%; }
     
 nav { display: block; padding: 1% 0% 1% 0%; }
 
@@ -152,4 +153,4 @@ p span.list { font-size: 93%; }
 
 /* Footer */
 
-footer { display: block; padding: 3% 0% 1% 0%; }
+footer { margin-top: auto; padding: 3% 0% 1% 0%; }
