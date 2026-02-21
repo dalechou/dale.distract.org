@@ -153,4 +153,4 @@ p span.list { font-size: 93%; }
 
 /* Footer */
 
-footer { grid-row: 3; }
+footer { grid-row: -1; }
