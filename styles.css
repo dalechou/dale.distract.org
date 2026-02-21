@@ -88,7 +88,7 @@ p span.list { font-size: 93%; }
 
 .portfolio-grid {
     display: grid;
-    gap: 2%;
+    gap: 3%;
     margin: 1% 0% 0% 0%;
 }
 .portfolio-item {
