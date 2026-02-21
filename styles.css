@@ -95,11 +95,12 @@ p span.list { font-size: 93%; }
 .portfolio-item {
     display: flex;
     flex-direction: column;
+    font-size: 93%; 
 }
 .portfolio-item img {
     width: 100%;
     height: auto;
-    margin-bottom: 1%;
+    margin-bottom: 7px;
     cursor: pointer;
 }
 .lightbox {
@@ -152,6 +153,4 @@ p span.list { font-size: 93%; }
     justify-content: center;
 }
 
-/* Footer */
-
-footer { margin-top: auto; padding: 2% 0% 1% 0%; }
+footer { margin-top: auto; padding: 1% 0%; }
