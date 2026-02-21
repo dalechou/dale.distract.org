@@ -92,7 +92,8 @@ p span.list { font-size: 93%; }
     margin: 2% 0% 0% 0%;
 }
 .portfolio-item {
-    display: grid;
+    display: flex;
+    flex-direction: row;
 }
 .portfolio-item img {
     width: 100%;
