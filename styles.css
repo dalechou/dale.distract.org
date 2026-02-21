@@ -65,7 +65,7 @@
     'opsz' 24;
 }
     
-body { display: block; font-family: 'Zen Maru Gothic', sans-serif; line-height: 150%; }
+body { font-family: 'Zen Maru Gothic', sans-serif; line-height: 150%; }
     
 nav { padding: 1% 0% 1% 0%; }
 
@@ -87,7 +87,7 @@ p span.list { font-size: 93%; }
 /* Portfolio */
 
 .portfolio-grid {
-    display: grid;
+    display: block;
     gap: 2%;
     margin: 2% 0% 0% 0%;
 }
