@@ -90,6 +90,7 @@ p span.list { font-size: 93%; }
     display: grid;
     gap: 2%;
     margin: 2% 0% 0% 0%;
+    border-style: dotted;
 }
 .portfolio-item {
     display: flex;
@@ -153,4 +154,4 @@ p span.list { font-size: 93%; }
 
 /* Footer */
 
-footer { display: block; block-size: 100%; }
+footer { display: block; padding: 3% 0% 1% 0%; border-style: solid; }
