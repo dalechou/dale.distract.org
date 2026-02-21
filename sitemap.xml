@@ -17,12 +17,12 @@
     <changefreq>monthly</changefreq>
 </url>
 <url>
-    <loc>https://dale.distract.org/scrawl/</loc>
-    <changefreq>monthly</changefreq>
-</url>
-<url>
 	<loc>https://dale.distract.org/photography/</loc>
 	<changefreq>yearly</changefreq>
+</url>
+<url>
+    <loc>https://dale.distract.org/scrawl/</loc>
+    <changefreq>monthly</changefreq>
 </url>
 <url>
 	<loc>https://dale.distract.org/contact.html</loc>
