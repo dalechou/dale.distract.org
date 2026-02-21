@@ -36,7 +36,7 @@
 
 /* This sets the overall palette (check contrast!) */
 
-:is(body, a:is(:link, :visited)) {
+:is(body, a:is(:link, :visited), .lightbox-close) {
     color: #153751;
     background-color: #e3eef2;
     text-decoration: none; 
@@ -51,7 +51,7 @@
 
 /* This is what the hover looks like, which should be an inverse of overall palette */
 
-:is(a:hover, span.inherit a:hover, .material-symbols-rounded:hover) {
+:is(a:hover, span.inherit a:hover, .material-symbols-rounded:hover, .lightbox-close:hover) {
     color: #e3eef2;
     background-color: #153751;
     text-decoration: none; 
@@ -84,19 +84,17 @@ p span.url { font-family: 'Source Code Pro', monospace; font-size: 82%; }
     
 p span.list { font-size: 93%; }
 
-/* Photography Portfolio */
+/* Portfolio */
 
 .portfolio-grid {
     display: grid;
     gap: 2%;
     margin: 2% 0%;
 }
-
 .portfolio-item {
     display: flex;
     flex-direction: column;
 }
-
 .portfolio-item img {
     width: 100%;
     height: auto;
@@ -104,13 +102,6 @@ p span.list { font-size: 93%; }
     margin-bottom: 1%;
     cursor: pointer;
 }
-
-.portfolio-item p {
-    margin: 0% 0% 0.5% 0%;
-}
-
-/* Lightbox */
-
 .lightbox {
     display: none;
     position: fixed;
@@ -119,7 +110,7 @@ p span.list { font-size: 93%; }
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(21, 55, 81, 0.95);
+    background-color: rgba(21, 55, 81, 0.66);
     padding: 2%;
     box-sizing: border-box;
     overflow: auto;
@@ -149,7 +140,6 @@ p span.list { font-size: 93%; }
     right: 1%;
     font-size: 200%;
     font-weight: bold;
-    color: #e3eef2;
     cursor: pointer;
     background: none;
     border: none;
@@ -159,8 +149,4 @@ p span.list { font-size: 93%; }
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.lightbox-close:hover {
-    color: #8b2635;
 }
