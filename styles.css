@@ -29,7 +29,7 @@
     body { padding: 0% 18% 2% 15%; font-size: 145%; }
     nav { word-spacing: 24px; }
     nav img, img.nav { width: 26px; }
-    .portfolio-grid { grid-template-columns: repeat(3, 1fr); }
+    .portfolio-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 /* Not really affected by screen sizes */
