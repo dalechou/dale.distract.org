@@ -136,9 +136,9 @@ p span.list { font-size: 93%; }
 
 .lightbox-close {
     position: absolute;
-    top: 0%;
-    left: 100%;
-    margin-left: 10px;
+    bottom: 100%;
+    right: 2%;
+    margin-bottom: 10px;
     font-size: 160%;
     font-weight: bold;
     cursor: pointer;
