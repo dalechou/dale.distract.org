@@ -80,7 +80,7 @@ pre span.part { font-size: 120%; }
 pre span.stamp { font-family: 'Zen Maru Gothic', sans-serif; font-size: 111%; }
 pre span.time, .portfolio-item { font-size: 86%; }
        
-p span.url { font-family: 'Source Code Pro', monospace; font-size: 82%; line-height: 85%; }
+p span.url { font-family: 'Source Code Pro', monospace; font-size: 82%; line-height: 80%; }
     
 p span.list { font-size: 93%; }
 
