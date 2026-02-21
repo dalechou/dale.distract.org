@@ -152,4 +152,4 @@ p span.list { font-size: 93%; }
 
 /* Footer */
 
-footer { margin-top: auto; padding: 3% 0% 1% 0%; }
+footer { grid-row: -1; margin-top: auto; padding: 3% 0% 1% 0%; }
