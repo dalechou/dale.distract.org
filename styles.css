@@ -87,12 +87,12 @@ p span.list { font-size: 93%; }
 /* Portfolio */
 
 .portfolio-grid {
-    display: block;
+    display: grid;
     gap: 2%;
     margin: 2% 0% 0% 0%;
 }
 .portfolio-item {
-    display: grid;
+    display: flex;
     flex-direction: column;
 }
 .portfolio-item img {
@@ -153,4 +153,4 @@ p span.list { font-size: 93%; }
 
 /* Footer */
 
-footer { display: block; padding: 2% 0% 1% 0%; }
+footer { display: grid; padding: 2% 0% 1% 0%; }
