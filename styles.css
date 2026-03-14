@@ -36,7 +36,7 @@
 
 /* This sets the overall palette (check contrast!) */
 
-:is(body, a:is(:link, :visited), .lightbox-close) {
+:is(body, hr, a:is(:link, :visited), .lightbox-close) {
     color: #153751;
     background-color: #e3eef2;
     text-decoration: none; 
@@ -68,6 +68,16 @@
 body { min-height: 100vh; font-family: 'Zen Maru Gothic', sans-serif; line-height: 150%; }
     
 nav { padding: 1% 0% 1% 0%; }
+
+hr {
+    border: none;
+    border-top: 2px dashed;
+    height: 0;
+    margin: 20px 0;
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+}
 
 article { padding: 2% 0% 2% 0%; }
 article:lang(zh) { font-family: 'Cactus Classical Serif', serif; font-size: 85%; }
