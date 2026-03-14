@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Dale's now page</title>
+    <link href='./styles.css' rel='stylesheet'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+</head>
+<body>
+<header>
+<nav>
+    <div id='mainnav'></div>
+    <script>
+    $(function(){
+        $('#mainnav').load('nav.html');
+    });
+    </script>
+    <br>
+</nav>
+</header>
+    <p>What is Dale up to?</p>
+    <p id="randomLine">Looking into Dale's life...</p>
+    <script>
+        function fetchRandomLine() {
+            fetch('now.txt')
+                .then(response => response.text())
+                .then(data => {
+                    const lines = data.split('\n');
+                    const randomIndex = Math.floor(Math.random() * lines.length);
+                    document.getElementById('randomLine').innerText = lines[randomIndex];
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('randomLine').innerText = 'Could not find Dale.';
+                });
+        }
+        window.onload = fetchRandomLine;
+    </script>
+</body>
+</html>
