@@ -42,11 +42,11 @@
     text-decoration: none; 
 }
 
-hr { border: none; border-top: 2px dashed #153751; height: 0; margin: 20px 0; width: 50%; margin-right: auto; }
+hr { border: none; border-top: 2px dashed; height: 0; margin: 20px 0; width: 50%; margin-right: auto; }
 
 /* This is the accent of the overall palette */
 
-:is(span.inherit a:is(:link, :visited), .material-symbols-rounded) {
+:is(span.inherit a:is(:link, :visited), .material-symbols-rounded, hr) {
     color: #8b2635;
     text-decoration: none; 
 }
