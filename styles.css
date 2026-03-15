@@ -42,8 +42,6 @@
     text-decoration: none; 
 }
 
-hr { border: none; border-top: 2px dashed; height: 0; margin: 20px 0; width: 50%; margin-right: auto; }
-
 /* This is the accent of the overall palette */
 
 :is(span.inherit a:is(:link, :visited), .material-symbols-rounded, hr) {
@@ -70,6 +68,8 @@ hr { border: none; border-top: 2px dashed; height: 0; margin: 20px 0; width: 50%
 body { min-height: 100vh; font-family: 'Zen Maru Gothic', sans-serif; line-height: 150%; }
     
 nav { padding: 1% 0% 1% 0%; }
+
+hr { border: none; border-top: 2px dashed; height: 0; margin: 20px 0; width: 50%; margin-right: auto; }
 
 article { padding: 2% 0% 2% 0%; }
 article:lang(zh) { font-family: 'Cactus Classical Serif', serif; font-size: 85%; }
