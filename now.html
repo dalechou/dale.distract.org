@@ -49,8 +49,8 @@
                         .catch(error => console.error('Temporal error:', error));
                 })
                 .catch(error => {
-                    console.error('Error:', error);
-                    document.getElementById('randomLine').innerHTML = '<p>Looking into the cold dark...</p>';
+                    console.error('Material error:', error);
+                    document.getElementById('randomLine').innerHTML = '<p>Looking into the cold dark... Nothing. There is nothing.</p>';
                 });
         }
         window.onload = fetchRandomLine;
