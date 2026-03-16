@@ -19,66 +19,26 @@
     <br>
 </nav>
 </header>
+    <p id="randomLine">Searching for Dale...</p>
 
-    <div id="randomLines">Loading...</div>
     <script>
-        function fetchRandomLines() {
-            fetch('./now.txt')
-                .then(response => {
-                    console.log('Response status:', response.status);
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! status: ${response.status}`);
-                    }
-                    return response.text();
-                })
-                .then(data => {
-                    console.log('File content:', data);
-                    const lines = data.split('\n').filter(line => line.trim() !== '');
-                    console.log('Lines found:', lines.length);
-                    console.log('Lines:', lines);
-                    
-                    const randomLines = [];
-                    
-                    for (let i = 0; i < 3; i++) {
-                        const randomIndex = Math.floor(Math.random() * lines.length);
-                        randomLines.push(lines[randomIndex]);
-                    }
-                    
-                    console.log('Random lines selected:', randomLines);
-                    document.getElementById('randomLines').innerHTML = randomLines.map(line => `<p>${line}</p>`).join('');
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                    document.getElementById('randomLines').innerHTML = '<p>Error: ' + error.message + '</p>';
-                });
-        }
-        window.onload = fetchRandomLines;
-    </script>
-
-
-
-    <div id="randomLines"></div>
-    <script>
-        function fetchRandomLines() {
-            fetch('./now.txt')
+        // Function to fetch a random line from lines.txt
+        function fetchRandomLine() {
+            fetch('lines.txt')
                 .then(response => response.text())
                 .then(data => {
-                    const lines = data.split('\n').filter(line => line.trim() !== '');
-                    const randomLines = [];
-                    
-                    for (let i = 0; i < 3; i++) {
-                        const randomIndex = Math.floor(Math.random() * lines.length);
-                        randomLines.push(lines[randomIndex]);
-                    }
-                    
-                    document.getElementById('randomLines').innerHTML = randomLines.map(line => `<p>${line}</p>`).join('');
+                    const lines = data.split('\n');
+                    const randomIndex = Math.floor(Math.random() * lines.length);
+                    document.getElementById('randomLine').innerText = lines[randomIndex];
                 })
                 .catch(error => {
                     console.error('Error:', error);
-                    document.getElementById('randomLines').innerHTML = '<p>Looking into the cold dark... Could not find Dale.</p>';
+                    document.getElementById('randomLine').innerText = 'Looking into the cold dark... Could not find Dale.';
                 });
         }
-        window.onload = fetchRandomLines;
+
+        // Automatically fetch a random line on page load
+        window.onload = fetchRandomLine;
     </script>
     <hr>
     <h1>What's this?</h1>
