@@ -22,7 +22,7 @@
     <p id="randomLine">Looking into Dale's life...</p>
     <script>
         function fetchRandomLine() {
-            fetch('now.txt')
+            fetch('./now.txt')
                 .then(response => response.text())
                 .then(data => {
                     const lines = data.split('\n').filter(line => line.trim() !== '');
@@ -48,7 +48,7 @@
     <p id="lastUpdated">Searching for meaning and everything...</p>
     <script>
         function getLastUpdated() {
-            fetch('now.txt', { method: 'HEAD' })
+            fetch('./now.txt', { method: 'HEAD' })
                 .then(response => {
                     const lastModified = response.headers.get('last-modified');
                     if (lastModified) {
