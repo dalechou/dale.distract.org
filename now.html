@@ -20,6 +20,43 @@
 </nav>
 </header>
 
+    <div id="randomLines">Loading...</div>
+    <script>
+        function fetchRandomLines() {
+            fetch('now.txt')
+                .then(response => {
+                    console.log('Response status:', response.status);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.text();
+                })
+                .then(data => {
+                    console.log('File content:', data);
+                    const lines = data.split('\n').filter(line => line.trim() !== '');
+                    console.log('Lines found:', lines.length);
+                    console.log('Lines:', lines);
+                    
+                    const randomLines = [];
+                    
+                    for (let i = 0; i < 3; i++) {
+                        const randomIndex = Math.floor(Math.random() * lines.length);
+                        randomLines.push(lines[randomIndex]);
+                    }
+                    
+                    console.log('Random lines selected:', randomLines);
+                    document.getElementById('randomLines').innerHTML = randomLines.map(line => `<p>${line}</p>`).join('');
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('randomLines').innerHTML = '<p>Error: ' + error.message + '</p>';
+                });
+        }
+        window.onload = fetchRandomLines;
+    </script>
+
+
+
     <div id="randomLines"></div>
     <script>
         function fetchRandomLines() {
