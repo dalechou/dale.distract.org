@@ -42,8 +42,8 @@
                             if (lastModified) {
                                 const date = new Date(lastModified);
                                 const options = { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'America/Los_Angeles' };
-                                const formattedDate = date.toLocaleDateString('en-US', options);
-                                document.getElementById('lastUpdate').innerHTML = `<p>Last update on ${formattedDate}</p>`;
+                                const formattedDate = date.toLocaleString('en-US', options).split(',')[0];
+                                document.getElementById('lastUpdate').innerHTML = `<p>Last update on ${formattedDate}.</p>`;
                             }
                         })
                         .catch(error => console.error('Error:', error));
