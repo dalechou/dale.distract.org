@@ -27,13 +27,16 @@
                 .then(response => response.text())
                 .then(data => {
                     const lines = data.split('\n').filter(line => line.trim() !== '');
-                    const randomLines = [];
                     const numLines = Math.random() < 0.5 ? 2 : 3;
-                    for (let i = 0; i < numLines; i++) {
+                    const randomLines = [];
+                    const selectedIndices = new Set();
+                    while (selectedIndices.size < numLines) {
                         const randomIndex = Math.floor(Math.random() * lines.length);
-                        randomLines.push(lines[randomIndex]);
+                        if (!selectedIndices.has(randomIndex)) {
+                            selectedIndices.add(randomIndex);
+                            randomLines.push(lines[randomIndex]);
+                        }
                     }
-                    
                     document.getElementById('randomLine').innerHTML = randomLines.map(line => `<p>${line}</p>`).join('');
                     fetch('./now.txt', { method: 'HEAD' })
                         .then(response => {
