@@ -19,6 +19,34 @@
     <br>
 </nav>
 </header>
+
+    <p id="randomLine">Looking into Dale's life...</p>
+    <script>
+        function fetchRandomLine() {
+            fetch('now.txt')
+                .then(response => response.text())
+                .then(data => {
+                    const lines = data.split('\n').filter(line => line.trim() !== '');
+                    const randomLines = [];
+                    
+                    for (let i = 0; i < 3; i++) {
+                        const randomIndex = Math.floor(Math.random() * lines.length);
+                        randomLines.push(lines[randomIndex]);
+                    }
+                    
+                    document.getElementById('randomLine').innerText = randomLines.join('\n\n');
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('randomLine').innerText = 'Looking into the cold dark... Could not find Dale.';
+                });
+        }
+        window.onload = fetchRandomLine;
+    </script>
+
+
+
+
     <p id="randomLine">Looking into Dale's life...</p>
     <script>
         function fetchRandomLine() {
