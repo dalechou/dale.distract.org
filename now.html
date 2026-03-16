@@ -43,7 +43,7 @@
                                 const day = date.toLocaleDateString('en-US', { timeZone: 'America/Los_Angeles', day: 'numeric' });
                                 const month = date.toLocaleDateString('en-US', { timeZone: 'America/Los_Angeles', month: 'long' });
                                 const year = date.toLocaleDateString('en-US', { timeZone: 'America/Los_Angeles', year: 'numeric' });
-                                document.getElementById('lastUpdate').innerHTML = `<p>Just a few things that I am into as of ${day} ${month} ${year}.</p>`;
+                                document.getElementById('lastUpdate').innerHTML = `<p>Just a few things on my mind as of ${day} ${month} ${year}.</p>`;
                             }
                         })
                         .catch(error => console.error('Temporal error:', error));
