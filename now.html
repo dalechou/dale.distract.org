@@ -24,7 +24,7 @@
     <script>
         // Function to fetch a random line from lines.txt
         function fetchRandomLine() {
-            fetch('lines.txt')
+            fetch('./now.txt')
                 .then(response => response.text())
                 .then(data => {
                     const lines = data.split('\n');
