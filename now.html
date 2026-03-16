@@ -21,6 +21,7 @@
 </header>
 
     <div id='randomLine'></div>
+    <div id='lastUpdate'></div>
     <script>
         function fetchRandomLine() {
             fetch('./now.txt')
@@ -35,10 +36,21 @@
                     }
                     
                     document.getElementById('randomLine').innerHTML = randomLines.map(line => `<p>${line}</p>`).join('');
+                    fetch('./now.txt', { method: 'HEAD' })
+                        .then(response => {
+                            const lastModified = response.headers.get('last-modified');
+                            if (lastModified) {
+                                const date = new Date(lastModified);
+                                const options = { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'America/Los_Angeles' };
+                                const formattedDate = date.toLocaleDateString('en-US', options);
+                                document.getElementById('lastUpdate').innerHTML = `<p>Last update on ${formattedDate}</p>`;
+                            }
+                        })
+                        .catch(error => console.error('Error:', error));
                 })
                 .catch(error => {
                     console.error('Error:', error);
-                    document.getElementById('randomLine').innerHTML = '<p>Looking into the cold dark... Could not find Dale.</p>';
+                    document.getElementById('randomLine').innerHTML = '<p>Temporal error!</p>';
                 });
         }
         window.onload = fetchRandomLine;
